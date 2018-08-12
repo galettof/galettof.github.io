@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Representations with finitely many orbits</title>
+<meta charset="UTF-8">
+<meta name="author" content="Federico Galetto">
+<meta name="description" content="Equations of the orbit closures for
+the representations associated to gradings on the Lie algebras of type
+E6, F4, G2 and select cases of type E7" />
+<meta name="keywords" content="finitely many orbits, graded Lie
+algebras, representations, free resolutions, Federico Galetto, Jerzy Weyman" />
+</head>
+<body>
+
+<h1>Representations with finitely many orbits</h1>
+<h2>Equations of the orbit closures for the representations associated
+to gradings on the Lie algebras of type E<sub>6</sub>, F<sub>4</sub>, G<sub>2</sub> and select cases of type E<sub>7</sub></h2>
+<p>
+This page contains links to files created as support material for the
+article <a href="http://arxiv.org/abs/1210.6410" target="_blank">Free resolutions of orbit closures for the representations associated to gradings on Lie algebras of type E6, F4 and G2</a> and the dissertation <a href="http://hdl.handle.net/2047/d20003095" target="_blank">Free resolutions of orbit closures for representation with finitely many orbits</a> by <a href="http://math.galetto.org" target="_blank">Federico Galetto</a>.
+<p>
+These files were prepared with and are intended for use
+with the software <a
+href="http://www.math.uiuc.edu/Macaulay2/" target="_blank">Macaulay2</a>. Each
+file is labeled by a string "XijOn.m2", where Xi is the type of
+the Lie algebra, j is the index
+of a distinguished node on the Dynkin diagram of type Xi and n is the
+natural number indexing the orbit. Please consult the documents cited above for an explanation of the
+notation and how the ideals of the orbit closures were constructed.</p>
+
+<p>The files for the
+normal orbits will load a polynomial ring A and the defining ideal for
+the orbit closure On, labeled In. The files for the
+non normal orbits will load in addition two modules: Nn, the
+normalization of the coordinate ring of the orbit closure, and Cn, the
+cokernel of the inclusion of the coordinate ring in its
+normalization. To use one of these files, download it by
+right-clicking on its name in your browser and save it in a
+directory on the path of Macaulay2 (your home directory is usually fine). Then
+start M2 and type: load "XijOn.m2", replacing XijOn.m2 by the name of
+the file you downloaded.
+</p>
+
+<p>
+Warning: computing resolutions of the ideals and modules provided here
+can be time and resource consuming. When necessary we provide hints to
+speed up the computation. All time and memory estimates refer to a
+2008 MacBook with a 2.4 GHz Intel Core 2 Duo processor and 8 GB of RAM
+running Macaulay2 version 1.4 on Mac OS X 10.6.
+</p>
+
+<p>For questions, comments or bug reports feel free to contact the
+author at: galetto.federico [(AT)] gmail.com.
+</p>
+<ul>
+  <li><h3>(E<sub>6</sub>, &alpha;<sub>1</sub>)</h3>
+  <ul>
+    <li><a href="files/E61O1.m2" >E61O1.m2</a>
+    </li>
+  </ul>
+</li>
+  <li><h3>(E<sub>6</sub>, &alpha;<sub>2</sub>)</h3>
+  <ul>
+    <li><a href="files/E62O1.m2" >E62O1.m2</a>
+    </li>
+    <li><a href="files/E62O2.m2" >E62O2.m2</a>
+    </li>
+    <li><a href="files/E62O3.m2" >E62O3.m2</a>
+    </li>
+  </ul>
+</li>
+  <li><h3>(E<sub>6</sub>, &alpha;<sub>3</sub>)</h3>
+  <ul>
+    <li><a href="files/E63O1.m2" >E63O1.m2</a> (I1 resolves in ~2 minutes)
+    </li>
+    <li><a href="files/E63O2.m2" >E63O2.m2</a>
+    </li>
+    <li><a href="files/E63O3.m2" >E63O3.m2</a>
+    </li>
+    <li><a href="files/E63O4.m2" >E63O4.m2</a>
+    </li>
+    <li><a href="files/E63O5.m2" >E63O5.m2</a>
+    </li>
+    <li><a href="files/E63O6.m2" >E63O6.m2</a>
+    </li>
+  </ul>
+  <li><h3>(E<sub>6</sub>, &alpha;<sub>4</sub>)</h3>
+  <ul>
+    <li><a href="files/E64O1.m2" >E64O1.m2</a> (I1 resolves with
+    the option DegreeLimit=>3 in ~5
+    minutes using ~1 GB of RAM)
+    </li>
+    <li><a href="files/E64O2.m2" >E64O2.m2</a>
+    </li>
+    <li><a href="files/E64O3.m2" >E64O3.m2</a>
+    </li>
+    <li><a href="files/E64O4.m2" >E64O4.m2</a>
+    </li>
+    <li><a href="files/E64O5.m2" >E64O5.m2</a>
+    </li>
+    <li><a href="files/E64O6.m2" >E64O6.m2</a>
+    </li>
+    <li><a href="files/E64O7.m2" >E64O7.m2</a>
+    </li>
+    <li><a href="files/E64O8.m2" >E64O8.m2</a>
+    </li>
+    <li><a href="files/E64O9.m2" >E64O9.m2</a>
+    </li>
+    <li><a href="files/E64O10.m2" >E64O10.m2</a>
+    </li>
+    <li><a href="files/E64O11.m2" >E64O11.m2</a>
+    </li>
+    <li><a href="files/E64O12.m2" >E64O12.m2</a> (the resolution of
+    N12 comes preloaded with the symbol RN12)
+    </li>
+    <li><a href="files/E64O13.m2" >E64O13.m2</a> (N13 resolves with
+    the option DegreeLimit=>4 in ~4
+    minutes using ~2 GB of RAM)
+    </li>
+    <li><a href="files/E64O14.m2" >E64O14.m2</a>
+    </li>
+    <li><a href="files/E64O15.m2" >E64O15.m2</a>
+    </li>
+    <li><a href="files/E64O16.m2" >E64O16.m2</a> (~1 MB, loads in ~3 minutes)
+    </li>
+  </ul>
+  <li><h3>(F<sub>4</sub>, &alpha;<sub>1</sub>)</h3>
+  <ul>
+    <li><a href="files/F41O1.m2" >F41O1.m2</a>
+    </li>
+    <li><a href="files/F41O2.m2" >F41O2.m2</a>
+    </li>
+    <li><a href="files/F41O3.m2" >F41O3.m2</a>
+    </li>
+  </ul>
+</li>
+  <li><h3>(F<sub>4</sub>, &alpha;<sub>2</sub>)</h3>
+  <ul>
+    <li><a href="files/F42O1.m2" >F42O1.m2</a>
+    </li>
+    <li><a href="files/F42O2.m2" >F42O2.m2</a>
+    </li>
+    <li><a href="files/F42O3.m2" >F42O3.m2</a>
+    </li>
+    <li><a href="files/F42O4.m2" >F42O4.m2</a>
+    </li>
+    <li><a href="files/F42O5.m2" >F42O5.m2</a>
+    </li>
+    <li><a href="files/F42O6.m2" >F42O6.m2</a>
+    </li>
+    <li><a href="files/F42O7.m2" >F42O7.m2</a>
+    </li>
+    <li><a href="files/F42O8.m2" >F42O8.m2</a> (N8 resolves right away
+    with the option DegreeLimit=>5)
+    </li>
+    <li><a href="files/F42O9.m2" >F42O9.m2</a> (N9 resolves right away
+    with the option DegreeLimit=>4)
+    </li>
+    </ul>
+</li>
+  <li><h3>(F<sub>4</sub>, &alpha;<sub>4</sub>)</h3>
+  <ul>
+    <li><a href="files/F44O1.m2" >F44O1.m2</a>
+    </li>
+  </ul>
+</li>
+  <li><h3>(G<sub>2</sub>, &alpha;<sub>2</sub>)</h3>
+  <ul>
+    <li><a href="files/G22O1.m2" >G22O1.m2</a>
+    </li>
+    <li><a href="files/G22O2.m2" >G22O2.m2</a>
+    </li>
+  </ul>
+</li>
+  <li><h3>(E<sub>7</sub>, &alpha;<sub>2</sub>)</h3>
+  <ul>
+    <li><a href="files/E72O6.m2" >E72O6.m2</a> (~3.5 MB, 
+the resolution of A/I6 comes preloaded with the symbol RI6)
+    <li><a href="files/E72O7.m2" >E72O7.m2</a> (~3 MB, loads in ~1.5 minutes, 
+the resolution of A/I7 comes preloaded with the symbol RI7)
+    </li>
+  </ul>
+</li>
+  <li><h3>(E<sub>7</sub>, &alpha;<sub>3</sub>)</h3>
+  <ul>
+    <li><a href="files/E73O9.m2" >E73O9.m2</a> (~8.5 MB, only contains presentations for N9 and C9, the resolution of N9 comes preloaded with the symbol RN9)
+    <li><a href="files/E73O10.m2" >E73O10.m2</a>
+    <li><a href="files/E73O11.m2" >E73O11.m2</a>
+    <li><a href="files/E73O12.m2" >E73O12.m2</a> (only contains presentations for N12 and C12, the resolution of N12 comes preloaded with the symbol RN12)
+    <li><a href="files/E73O13.m2" >E73O13.m2</a> (only contains presentations for N13 and C13)
+    </li>
+  </ul>
+</li>
+</ul>
+
+<br />
+<hr />
+Page created and maintained by Federico Galetto. Last updated 3/10/2014.
+</body>
+</html>
