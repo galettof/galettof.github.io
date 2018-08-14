@@ -22,140 +22,144 @@
   </head>
   <body>
 
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-      <div class="container">
-	<a class="navbar-brand" href="index.html">Federico Galetto</a>
-	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-	</button>
-	<div class="collapse navbar-collapse" id="navbarCollapse">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link text-nowrap" href="index.html">
-		<span class="fas fa-envelope"></span>
-		&nbsp;Contact</a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link text-nowrap" href="#">
-		<span class="fas fa-user"></span>
-		&nbsp;Bio/CV
-	      </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-nowrap" href="teaching.html">
-		<span class="fas fa-graduation-cap"></span>
-		&nbsp;Teaching
-	      </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-nowrap" href="research.html">
-		<span class="fas fa-book"></span>
-		&nbsp;Research
-	      </a>
-            </li>
-          </ul>
-	</div>
-      </div>
-    </nav>
+    <wrapper class="d-flex flex-column">
 
-    <div class="container">
-      <div class="row">
-	<div class="col-md-8">
-	  <div class="card">
-	    <div class="card-header">
-	      <h5 class="mb-0">Employment</h5>
-	    </div>
-	    <table class="table table-sm mb-0">
-	      <tbody>
-		<tr><td>2018 - present</td>
-		  <td><strong>Assistant Professor</strong>, Cleveland State University
-		  </td>
-		</tr>
-		<tr><td>2015 - 2018</td>
-		  <td><strong>Postdoctoral Fellow</strong>, McMaster University<br>
-		    Supervisors: Megumi Harada, Adam Van Tuyl
-		  </td>
-		</tr>
-		<tr><td>2013 - 2015</td>
-		  <td><strong>Coleman Postdoctoral Fellow</strong>, Queen's University<br>
-		    Supervisors: Tony Geramita, Greg Smith, David Wehlau
-		  </td>
-		</tr>
-		<tr><td>2007 - 2013</td>
-		  <td><strong>Teaching Assistant</strong>,
-		    Northeastern University
-		  </td>
-		</tr>
-	      </tbody>
-	    </table>
-	  </div>
-	  <div class="card">
-	    <div class="card-header">
-	      <h5 class="mb-0">Education</h5>
-	    </div>
-	    <table class="table table-sm mb-0">
-	      <tbody>
-		<tr><td>2013</td>
-		  <td><strong>Ph.D. in Mathematics</strong>, Northeastern University<br>
-		    Advisor: Jerzy Weyman
-		  </td>
-		</tr>
-		<tr><td>2009</td>
-		  <td><strong>M.S. in Pure Mathematics</strong>, Northeastern University
-		  </td>
-		</tr>
-		<tr><td>2008</td>
-		  <td><strong>Laurea Magistrale in Matematica</strong>, Universit&agrave; degli Studi di Torino<br>
-		    Advisor: Margherita Roggero
-		  </td>
-		</tr>
-		<tr><td>2005</td>
-		  <td><strong>Laurea in Scienze Matematiche</strong>, Universit&agrave; degli Studi di Torino<br>
-		    Advisor: Margherita Roggero
-		  </td>
-		</tr>
-	      </tbody>
-	    </table>
-	  </div>
-	  <div class="card">
-	    <div class="card-header">
-	      <h5 class="mb-0">Curriculum Vitae</h5>
-	    </div>
-	    <table class="table table-sm mb-0">
-	      <tbody>
-		<tr><td><a href="files/CV.pdf">Full CV</a> (updated August 2018)</td>
-		</tr>
-	      </tbody>
-	    </table>
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+	<div class="container">
+	  <a class="navbar-brand" href="index.html">Federico Galetto</a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+	  </button>
+	  <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+		<a class="nav-link text-nowrap" href="index.html">
+		  <span class="fas fa-envelope"></span>
+		  &nbsp;Contact</a>
+              </li>
+              <li class="nav-item active">
+		<a class="nav-link text-nowrap" href="#">
+		  <span class="fas fa-user"></span>
+		  &nbsp;Bio/CV
+		</a>
+              </li>
+              <li class="nav-item">
+		<a class="nav-link text-nowrap" href="teaching.html">
+		  <span class="fas fa-graduation-cap"></span>
+		  &nbsp;Teaching
+		</a>
+              </li>
+              <li class="nav-item">
+		<a class="nav-link text-nowrap" href="research.html">
+		  <span class="fas fa-book"></span>
+		  &nbsp;Research
+		</a>
+              </li>
+            </ul>
 	  </div>
 	</div>
-	<div class="col-md-4">
-	  <div class="card text-center">
-	      <img class="card-img-top" alt="Mole Antonelliana" src="img/torino.jpg">
-	    <div class="card-body">
-	      <div class="caption">
-		Mole Antonelliana - Photo by <a href="https://www.flickr.com/people/turinboy/" target="_blank">Turinboy</a>
+      </nav>
+
+      <main class="flex-fill">
+
+	<div class="container">
+	  <div class="row">
+	    <div class="col-md-8">
+	      <div class="card">
+		<div class="card-header">
+		  <h5 class="mb-0">Employment</h5>
+		</div>
+		<table class="table table-sm mb-0">
+		  <tbody>
+		    <tr><td>2018 - present</td>
+		      <td><strong>Assistant Professor</strong>, Cleveland State University
+		      </td>
+		    </tr>
+		    <tr><td>2015 - 2018</td>
+		      <td><strong>Postdoctoral Fellow</strong>, McMaster University<br>
+			Supervisors: Megumi Harada, Adam Van Tuyl
+		      </td>
+		    </tr>
+		    <tr><td>2013 - 2015</td>
+		      <td><strong>Coleman Postdoctoral Fellow</strong>, Queen's University<br>
+			Supervisors: Tony Geramita, Greg Smith, David Wehlau
+		      </td>
+		    </tr>
+		    <tr><td>2007 - 2013</td>
+		      <td><strong>Teaching Assistant</strong>,
+			Northeastern University
+		      </td>
+		    </tr>
+		  </tbody>
+		</table>
+	      </div>
+	      <div class="card">
+		<div class="card-header">
+		  <h5 class="mb-0">Education</h5>
+		</div>
+		<table class="table table-sm mb-0">
+		  <tbody>
+		    <tr><td>2013</td>
+		      <td><strong>Ph.D. in Mathematics</strong>, Northeastern University<br>
+			Advisor: Jerzy Weyman
+		      </td>
+		    </tr>
+		    <tr><td>2009</td>
+		      <td><strong>M.S. in Pure Mathematics</strong>, Northeastern University
+		      </td>
+		    </tr>
+		    <tr><td>2008</td>
+		      <td><strong>Laurea Magistrale in Matematica</strong>, Universit&agrave; degli Studi di Torino<br>
+			Advisor: Margherita Roggero
+		      </td>
+		    </tr>
+		    <tr><td>2005</td>
+		      <td><strong>Laurea in Scienze Matematiche</strong>, Universit&agrave; degli Studi di Torino<br>
+			Advisor: Margherita Roggero
+		      </td>
+		    </tr>
+		  </tbody>
+		</table>
+	      </div>
+	      <div class="card">
+		<div class="card-header">
+		  <h5 class="mb-0">Curriculum Vitae</h5>
+		</div>
+		<table class="table table-sm mb-0">
+		  <tbody>
+		    <tr><td><a href="files/CV.pdf">Full CV</a> (updated August 2018)</td>
+		    </tr>
+		  </tbody>
+		</table>
+	      </div>
+	    </div>
+	    <div class="col-md-4">
+	      <div class="card text-center">
+		<img class="card-img-top" alt="Mole Antonelliana" src="img/torino.jpg">
+		<div class="card-body">
+		  <div class="caption">
+		    Mole Antonelliana - Photo by <a href="https://www.flickr.com/people/turinboy/" target="_blank">Turinboy</a>
+		  </div>
+		</div>
 	      </div>
 	    </div>
 	  </div>
 	</div>
-      </div>
-    </div>
-    
-    <footer class="footer">
-      <div class="container">
-	<div class="row">
-	  <div class="col">
-	    <div class="text-muted">&copy; Federico Galetto 2018</div>
-	  </div>
-	  <div class="col">
-	    <div class="text-right">
+      </main>
+      
+      <footer>
+
+	<div class="container">
+	  <div class="d-flex flex-column-reverse flex-sm-row justify-content-between align-items-center">
+	    <div class="text-muted pt-3 pt-sm-0">&copy; Federico Galetto 2018</div>
+	    <div>
 	      <a href="https://www.csuohio.edu" target="_blank"><img alt="Cleveland State University" height="42rem" src="img/CSUstacked.png"></a>
 	    </div>
 	  </div>
 	</div>
-      </div>
-    </footer>
+
+      </footer>
+    </wrapper>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
