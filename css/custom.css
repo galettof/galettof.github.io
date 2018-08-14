@@ -1,3 +1,5 @@
+/* Card margins and padding */
+
 .card {
     margin-bottom: 1rem;
 }
@@ -10,44 +12,44 @@
     padding: 0.5rem;
 }
 
+
+/* Table padding */
+
 .table tr td {
     padding-left: 0.5rem;
     padding-right: 0.5rem;
 }
 
-/* Navbar background color 004c37 */
-.navbar {
-    background-color: #004c37!important;
-}
 
 /* Remove top border from all td cells of the first tr element in each table */
+
 .table tr:first-child td {
 border-top: none;
 }
 
-/* Top fixed navbar */
+
+/* Navbar background color 004c37 */
+
+.navbar {
+    background-color: #004c37!important;
+}
+
+
+/* Push body down to make room for navbar */
 body {
-    /*min-height: 75rem;*/
-    /*line above was in original css but removed it because it conflicts with sticky footer*/
   padding-top: 4.5rem;
 }
 
-/* Sticky footer styles
--------------------------------------------------- */
-html {
-  position: relative;
-  min-height: 100%;
+
+/* Footer sticky and style */
+
+body, wrapper {
+   min-height:100vh;
 }
-body {
-  margin-bottom: 5rem; /* Margin bottom by footer height */
-}
-.footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 4.5rem; /* Set the fixed height of the footer here */
-  line-height: 4.5rem;
-  /*same colors as card-header, taken from bootstrap.css*/
-  background-color: rgba(0,0,0,0.03);
-  border-top: 1px solid rgba(0, 0, 0, 0.075);
+
+footer {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: rgba(0,0,0,0.03);
+    border-top: 1px solid rgba(0, 0, 0, 0.075);
 }
