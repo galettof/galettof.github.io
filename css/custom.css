@@ -43,8 +43,14 @@ body {
 
 /* Footer sticky and style */
 
-body, wrapper {
-   min-height:100vh;
+.Site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.Site-content {
+  flex: 1;
 }
 
 footer {
