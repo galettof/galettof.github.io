@@ -59,3 +59,11 @@ footer {
     background-color: rgba(0,0,0,0.05);
     border-top: 1px solid rgba(0, 0, 0, 0.075);
 }
+
+/* Reduce padding around navbar links and brand to shrink navbar */
+.nav-link {
+    padding-top:0;padding-bottom:0;
+}
+.navbar-brand {
+    padding-top:0;padding-bottom:0;
+}
