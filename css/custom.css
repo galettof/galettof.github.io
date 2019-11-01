@@ -26,14 +26,6 @@
 border-top: none;
 }
 
-
-/* Navbar background color 004c37 */
-
-.navbar {
-    background-color: #004c37!important;
-}
-
-
 /* Push body down to make room for navbar */
 body {
   padding-top: 4.5em;
@@ -58,6 +50,28 @@ footer {
     padding-bottom: 0.6em;
     background-color: rgba(0,0,0,0.05);
     border-top: 1px solid rgba(0, 0, 0, 0.075);
+}
+
+/* Navbar and nav item custom colors */
+.navbar {
+    background-color: #004c37!important;
+}
+/*.nav-link {
+    color: #ffffff !important;
+}*/
+.nav-link:hover {
+    background-color: #69be28 !important;
+    color: #000000 !important;
+}
+.dropdown-menu {
+    background-color: #004c37 !important;
+}
+.dropdown-item {
+    color: #ffffff;
+}
+.dropdown-item:hover {
+    background-color: #69be28 !important;
+    color: #000000;
 }
 
 /* Reduce padding around navbar links and brand to shrink navbar */
