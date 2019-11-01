@@ -56,13 +56,11 @@ footer {
 .navbar {
     background-color: #004c37!important;
 }
-/*.nav-link {
-    color: #ffffff !important;
-}*/
 .nav-link:hover {
     background-color: #69be28 !important;
     color: #000000 !important;
 }
+/* note: I'm not currently using dropdowns */
 .dropdown-menu {
     background-color: #004c37 !important;
 }
