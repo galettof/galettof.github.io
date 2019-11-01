@@ -1,25 +1,24 @@
-/* Card margins and padding */
+/* Card margins, padding, color */
 
+/* may need to remove card margin-bottom if I introduce section padding */
 .card {
-    margin-bottom: 1rem;
+    margin-bottom: 1em;
 }
 
 .card-body {
-    padding: 0.5rem;
+    padding: 0.5em;
 }
-
 .card-header {
-    padding: 0.5rem;
+    padding: 0.5em;
+    background-color: rgba(0,0,0,0.05); 
 }
-
 
 /* Table padding */
 
 .table tr td {
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
 }
-
 
 /* Remove top border from all td cells of the first tr element in each table */
 
@@ -37,7 +36,7 @@ border-top: none;
 
 /* Push body down to make room for navbar */
 body {
-  padding-top: 4.5rem;
+  padding-top: 4.5em;
 }
 
 
@@ -54,16 +53,9 @@ body {
 }
 
 footer {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    background-color: rgba(0,0,0,0.03);
-    border-top: 1px solid rgba(0, 0, 0, 0.075);
-}
-
-footer {
     margin-top: 4em;
     padding-top: 0.6em;
     padding-bottom: 0.6em;
-    background-color: rgba(0,0,0,0.06);
+    background-color: rgba(0,0,0,0.05);
     border-top: 1px solid rgba(0, 0, 0, 0.075);
 }
