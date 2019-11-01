@@ -1,25 +1,24 @@
-/* Card margins and padding */
+/* Card margins, padding, color */
 
+/* may need to remove card margin-bottom if I introduce section padding */
 .card {
-    margin-bottom: 1rem;
+    margin-bottom: 1em;
 }
 
 .card-body {
-    padding: 0.5rem;
+    padding: 0.5em;
 }
-
 .card-header {
-    padding: 0.5rem;
+    padding: 0.5em;
+    background-color: rgba(0,0,0,0.05); 
 }
-
 
 /* Table padding */
 
 .table tr td {
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
 }
-
 
 /* Remove top border from all td cells of the first tr element in each table */
 
@@ -27,17 +26,9 @@
 border-top: none;
 }
 
-
-/* Navbar background color 004c37 */
-
-.navbar {
-    background-color: #004c37!important;
-}
-
-
 /* Push body down to make room for navbar */
 body {
-  padding-top: 4.5rem;
+  padding-top: 4.5em;
 }
 
 
@@ -54,8 +45,40 @@ body {
 }
 
 footer {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    background-color: rgba(0,0,0,0.03);
+    margin-top: 4em;
+    padding-top: 0.6em;
+    padding-bottom: 0.6em;
+    background-color: rgba(0,0,0,0.05);
     border-top: 1px solid rgba(0, 0, 0, 0.075);
+}
+
+/* Navbar and nav item custom colors, corners */
+.navbar {
+    background-color: #004c37!important;
+}
+.nav-link {
+    border-radius:4px;
+}
+.nav-link:hover {
+    background-color: #69be28 !important;
+    color: #000000 !important;
+}
+/* note: I'm not currently using dropdowns */
+.dropdown-menu {
+    background-color: #004c37 !important;
+}
+.dropdown-item {
+    color: #ffffff;
+}
+.dropdown-item:hover {
+    background-color: #69be28 !important;
+    color: #000000;
+}
+
+/* Reduce padding around navbar links and brand to shrink navbar */
+.nav-link {
+    padding-top:0;padding-bottom:0;
+}
+.navbar-brand {
+    padding-top:0;padding-bottom:0;
 }
