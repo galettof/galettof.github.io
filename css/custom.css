@@ -58,6 +58,7 @@ footer {
 }
 .nav-link {
     border-radius:4px;
+    padding:3px;
 }
 .nav-link:hover {
     background-color: #69be28 !important;
@@ -75,10 +76,7 @@ footer {
     color: #000000;
 }
 
-/* Reduce padding around navbar links and brand to shrink navbar */
-.nav-link {
-    padding-top:0;padding-bottom:0;
-}
+/* Reduce padding around navbar brand to shrink navbar */
 .navbar-brand {
     padding-top:0;padding-bottom:0;
 }
