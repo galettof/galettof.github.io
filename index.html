@@ -12,8 +12,8 @@
     <meta name="keywords" content="Federico Galetto, Galetto, contact, math, commutative algebra, free resolutions, Cleveland State University">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    
     <!-- Custom styles for this template -->
     <link href="css/custom.css" rel="stylesheet">
 
@@ -30,41 +30,63 @@
 
     <!-- Font Awesome icons -->
     <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script>
+
+    <!-- MathJax -->
+    <script type="text/javascript" async
+	    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML" async>
+    </script>
+
   </head>
   <body class="Site">
 
     <header>
-      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
 	<div class="container">
-	  <a class="navbar-brand" href="#">Federico Galetto</a>
+	  <a class="navbar-brand" href="index.html">Federico Galetto</a>
 	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
 	  </button>
 	  <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav ml-auto">
-              <li class="nav-item active pr-lg-1">
-		<a class="nav-link text-nowrap px-2" href="#">
+
+	      <li class="nav-item pl-1 pt-2 pt-lg-0 active">
+		<a class="nav-link btn btn-outline-primary py-1" href="index.html" role="button">
 		  <span class="fas fa-envelope"></span>
-		  &nbsp;Contact</a>
-              </li>
-              <li class="nav-item pr-lg-1">
-		<a class="nav-link text-nowrap px-2" href="bio.html">
+		  &nbsp;Contact
+		</a>
+	      </li>
+
+	      <li class="nav-item pl-1 pt-2 pt-lg-0 ">
+		<a class="nav-link btn btn-outline-primary py-1" href="bio.html" role="button">
 		  <span class="fas fa-user"></span>
 		  &nbsp;Bio/CV
 		</a>
-              </li>
-              <li class="nav-item pr-lg-1">
-		<a class="nav-link text-nowrap px-2" href="teaching.html">
+	      </li>
+
+	      <li class="nav-item pl-1 pt-2 pt-lg-0 ">
+		<a class="nav-link btn btn-outline-primary py-1" href="teaching.html" role="button">
 		  <span class="fas fa-graduation-cap"></span>
 		  &nbsp;Teaching
 		</a>
-              </li>
-              <li class="nav-item">
-		<a class="nav-link text-nowrap px-2" href="research.html">
-		  <span class="fas fa-book"></span>
-		  &nbsp;Research
-		</a>
-              </li>
+	      </li>
+
+	      <li class="nav-item pl-1 pt-2 pt-lg-0">
+		<div class="btn-group d-flex" role="group">
+		  <a class="nav-link btn py-1 w-100 " href="research.html" role="button">
+		    <span class="fas fa-book"></span>
+		    &nbsp;Research
+		  </a>
+		  <a class="nav-link btn py-1 dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" id="navbarDropdownMenuLink" aria-haspopup="true" aria-expanded="false" role="button"></a>
+		  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+		    <a class="dropdown-item" href="research.html#publications">Publications</a>
+		    <a class="dropdown-item" href="research.html#software">Software</a>
+		    <a class="dropdown-item" href="research.html#expository">Expository</a>
+		    <a class="dropdown-item" href="research.html#talks">Select Talks</a>
+		    <a class="dropdown-item" href="research.html#dissertation">Dissertation</a>
+		  </div>
+		</div>
+	      </li>
+
             </ul>
 	  </div>
 	</div>
@@ -72,73 +94,89 @@
     </header>
 
     <main class="Site-content">
-
-      <div class="container">
+      <div class="container body">
 	<div class="row">
-	  <div class="col">
-	    <div class="card">
-	      <div class="card-body">
-		<h2 class="card-title">Federico Galetto</h2>
-		<h5 class="card-subtitle text-muted">
-		  Assistant Professor<br>
-		  Department of Mathematics and Statistics<br>
-		  Cleveland State University
-		</h5>
-	      </div>
-	    </div>
-	    <div class="card">
-	      <div class="card-header">
-		<h5 class="mb-0">Contact Information</h5>
-	      </div>
-	      <table class="table table-sm mb-0">
-		<tbody>
-		  <tr>
-		    <td><span class="fas fa-at"></span>&nbsp;Email</td>
-		    <td><a href="mailto:f.galetto@csuohio.edu" target="_blank">f.galetto@csuohio.edu</a>
-		    </td>
-		  </tr>
-		  <tr>
-		    <td><span class="fas fa-phone"></span>&nbsp;Phone</td>
-		    <td>216-687-4696</td>
-		  </tr>
-		  <tr>
-		    <td><span class="fas fa-building"></span>&nbsp;Office</td>
-		    <td>Rhodes Tower 1528</td>
-		  </tr>
-		  <tr>
-		    <td><span class="fas fa-calendar-alt"></span>&nbsp;Office hours</td>
-		    <td>Please request appointments via email at this time</td>
-		    <!--<td><a href="https://doodle.com/mm/federicogaletto/make-appointment" target="_blank">Click here to make an appointment</a></td> -->
-		  </tr>
-		  <tr>
-		    <td><span class="fas fa-envelope-open"></span>&nbsp;Mail</td>
-		    <td>Department of Mathematics and Statistics<br>
-		      Cleveland State University<br>
-		      2121 Euclid Avenue, RT 1515<br>
-		      Cleveland, OH 44115-2215
-		    </td>
-		  </tr>
-		</tbody>
-	      </table>
-	    </div>
-	  </div>
-	  <div class="col-md-4">
-	    <div class="card text-center">
-	      <img class="card-img-top rounded" alt="Federico Galetto" src="img/portrait.jpg">
-	    </div>
-	  </div>
-	</div>
-      </div>
 
+  <div class="col">
+
+    <div class="card">
+      <div class="card-body">
+	<h2 class="card-title">Federico Galetto</h2>
+	<h5 class="card-subtitle text-muted">
+	  Assistant Professor,
+	  Department of Mathematics and Statistics<br>
+	  Cleveland State University
+	</h5>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+<div class="row">
+
+  <div class="col d-flex">
+
+    <div class="card w-100">
+      <div class="card-header">
+	<h5 class="mb-0">Contact Information</h5>
+      </div>
+      <table class="table table-sm mb-0">
+	<tbody>
+	  <tr>
+	    <td><span class="fas fa-at"></span>&nbsp;Email</td>
+	    <td><a href="mailto:f.galetto@csuohio.edu" target="_blank">f.galetto@csuohio.edu</a>
+	    </td>
+	  </tr>
+	  <tr>
+	    <td><span class="fas fa-phone"></span>&nbsp;Phone</td>
+	    <td>216-687-4696</td>
+	  </tr>
+	  <tr>
+	    <td><span class="fas fa-building"></span>&nbsp;Office</td>
+	    <td>Rhodes Tower 1528</td>
+	  </tr>
+	  <tr>
+	    <td><span class="fas fa-calendar-alt"></span>&nbsp;Office hours</td>
+	    <td>Please request appointments via email at this time</td>
+	    <!--<td><a href="https://doodle.com/mm/federicogaletto/make-appointment" target="_blank">Click here to make an appointment</a></td> -->
+	  </tr>
+	  <tr>
+	    <td><span class="fas fa-envelope-open"></span>&nbsp;Mail</td>
+	    <td>Department of Mathematics and Statistics<br>
+	      Cleveland State University<br>
+	      2121 Euclid Avenue, RT 1515<br>
+	      Cleveland, OH 44115-2215
+	    </td>
+	  </tr>
+	</tbody>
+      </table>
+    </div>
+
+  </div>
+
+  <div class="col-lg-3 col-md-4 d-flex">
+
+    <div class="card text-center">
+      <img class="card-img-top rounded img-crop h-100" alt="Federico Galetto" src="img/portrait.jpg">
+    </div>
+
+  </div>
+
+</div>
+
+
+      </div>
     </main>
 
     <footer>
 
       <div class="container">
 	<div class="d-flex justify-content-center">
-	  <div class="text-muted align-items-center">
+	  <div class="text-muted align-items-center py-1">
 	    <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a>
-	    &nbsp;&copy; Federico Galetto 2018-2020</div>
+	    &nbsp;&copy; Federico Galetto 2018 - 2020</div>
 	</div>
       </div>
 
@@ -146,8 +184,9 @@
     
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    
   </body>
 </html>
