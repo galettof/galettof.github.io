@@ -27,8 +27,8 @@
   </url>
   <url>
     <loc>https://math.galetto.org/orbits/index.html</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.50</priority>
+    <changefreq>yearly</changefreq>
+    <priority>0.40</priority>
   </url>
   <url>
     <loc>https://math.galetto.org/</loc>
