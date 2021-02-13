@@ -38,7 +38,7 @@ html {
 
 /* Remove top border from all td cells of the first tr element in each table */
 
-.table tr:first-child td {
+table.notop tr:first-child td {
     border-top: none;
 }
 
