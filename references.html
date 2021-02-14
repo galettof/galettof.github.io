@@ -21,8 +21,8 @@ active: research
 	  <tbody>
 	    {% assign artlist = site.data.defect.articles | sort: 'date' %}
 	    {% for item in artlist %}
-	    <tr><td>{{ forloop.index }}.</td>
-	      <td>{{ item.title }}<br>
+	    <tr><td>[{{ forloop.index }}]</td>
+	      <td>{{ item.authors }} - {{ item.title }}<br>
 		{% if item.cite %}
 		<a href="{{ item.link }}" target="_blank">{{ item.cite }}</a>
 		{% if item.arxiv %}
@@ -51,8 +51,8 @@ active: research
 	  <tbody>
 	    {% assign artlist = site.data.defect.articles | sort: 'date' %}
 	    {% for item in artlist %}
-	    <tr><td>{{ forloop.index }}.</td>
-	      <td>{{ item.title }}<br>
+	    <tr><td>[{{ forloop.index }}]</td>
+	      <td>{{ item.authors }} - {{ item.title }}<br>
 		{% if item.cite %}
 		<a href="{{ item.link }}" target="_blank">{{ item.cite }}</a>
 		{% if item.arxiv %}
