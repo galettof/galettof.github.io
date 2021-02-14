@@ -1,13 +1,6 @@
 # enclose values in '' when ending in 0 or containing :
 articles:
 
-- authors: F. Galetto, A.V. Geramita, Y.S. Shin, and A. Van Tuyl
-  title: The symbolic defect of an ideal
-  arxiv: 1610.00176
-  link: https://doi.org/10.1016/j.jpaa.2018.11.019
-  cite: J. Pure Appl. Algebra, 223(6):2709--2731, 2019
-  date: 2019-06-02
-
 - authors: B. Chakraborty and M. Mandal
   title: Invariants of the symbolic powers of edge ideals
   arxiv: 1904.07717
