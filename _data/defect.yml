@@ -1,9 +1,23 @@
 # enclose values in '' when ending in 0 or containing :
 articles:
 
+- authors: J. Biermann, H. de Alba, F. Galetto, S. Murai, U. Nagel, A. O'Keefe, T. R&ouml;mer, and A. Seceleanu
+  title: Betti numbers of symmetric shifted ideals
+  arxiv: 1907.04288
+  link: https://doi.org/10.1016/j.jalgebra.2020.04.037
+  cite: J. Algebra, 560:312--342, 2020
+  date: 2020-10-15
+
 - authors: B. Chakraborty and M. Mandal
   title: Invariants of the symbolic powers of edge ideals
   arxiv: 1904.07717
   link: https://doi.org/10.1142/S0219498820501844
-  cite: J. Pure Appl. Algebra, 223(6):2709--2731, 2019
+  cite: J. Algebra Appl., 19(10):19, 2020
   date: 2019-10-08
+
+- authors: 
+  title: 
+  arxiv: 
+  link: 
+  cite: 
+  date: 
