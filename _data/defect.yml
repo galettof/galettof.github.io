@@ -15,6 +15,20 @@ articles:
   cite: J. Algebra Appl., 19(10):19, 2020
   date: 2019-10-08
 
+- authors: B. Drabkin, E. Grifo, A. Seceleanu, and B. Stone
+  title: Calculations involving symbolic powers
+  arxiv: 1712.01440
+  link: https://doi.org/10.2140/jsag.2019.9.71
+  cite: J. Softw. Algebra Geom., 9(1):71--80, 2019
+  date: 2019-10-16
+
+- authors: B. Drabkin and L. Guerrieri
+  title: Asymptotic invariants of ideals with Noetherian symbolic Rees algebra and applications to cover ideals
+  arxiv: 1802.01884
+  link: https://doi.org/10.1016/j.jpaa.2019.05.008
+  cite: J. Pure Appl. Algebra, 224(1):300--319, 2020
+  date: 2019-05-08
+
 - authors: 
   title: 
   arxiv: 
