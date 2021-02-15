@@ -20,13 +20,15 @@ active: research
 	<table class="table table-sm mb-0">
 	  <tbody>
 	    <tr><td>[1]</td>
-	      <td>F. Galetto, A.V. Geramita, Y.S. Shin, and A. Van Tuyl - The symbolic defect of an ideal<br>
+	      <td>F. Galetto, A.V. Geramita, Y.S. Shin, and A. Van Tuyl<br>
+		The symbolic defect of an ideal<br>
 		<a href="https://doi.org/10.1016/j.jpaa.2018.11.019" target="_blank">J. Pure Appl. Algebra, 223(6):2709--2731, 2019</a> - <a href="http://arxiv.org/abs/1610.00176" target="_blank">arXiv:1610.00176</a></td>
 	    </tr>
 	    {% assign artlist = site.data.defect.articles | sort: 'date' %}
 	    {% for item in artlist %}
 	    <tr><td>[{{ forloop.index | plus:1 }}]</td>
-	      <td>{{ item.authors }} - {{ item.title }}<br>
+	      <td>{{ item.authors }}<br>
+		{{ item.title }}<br>
 		{% if item.cite %}
 		<a href="{{ item.link }}" target="_blank">{{ item.cite }}</a>
 		{% if item.arxiv %}
