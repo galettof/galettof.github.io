@@ -17,7 +17,7 @@ articles:
 
 - authors: B. Drabkin, E. Grifo, A. Seceleanu, and B. Stone
   title: Calculations involving symbolic powers
-  arxiv: 1712.01440
+  arxiv: '1712.01440'
   link: https://doi.org/10.2140/jsag.2019.9.71
   cite: J. Softw. Algebra Geom., 9(1):71--80, 2019
   date: 2019-10-16
@@ -48,9 +48,46 @@ articles:
   arxiv: 2101.09762
   date: 2021-01-24
 
-- authors: 
-  title: 
-  arxiv: 
-  link: 
-  cite: 
-  date: 
+- authors: H. Haghighi and M. Mosakhani
+  title: Containment problem for quasi star configurations of points in \(\mathbb P^2\)
+  arxiv: 1703.02827
+  link: https://doi.org/10.1142/S1005386718000469
+  cite: Algebra Colloq., 25(4):661--670, 2018
+  date: 2018-07-28
+
+- authors: B. Harbourne, J. Kettinger, and F. Zimmitti
+  title: Extreme values of the resurgence for homogeneous ideals in polynomial rings
+  arxiv: 2005.05282
+  date: 2020-05-11
+
+- authors: I. B. Jafarloo and G. Malara
+  title: Regularity and symbolic defect of points on rational normal curves
+  arxiv: 2007.08612
+  date: 2020-07-16
+
+- authors: I. B. Jafarloo and G. Zito
+  title: On the containment problem for fat points
+  arxiv: 1802.10178
+  date: 2018-02-27
+
+- authors: M. Janssen, T. Kamp, and J. Vander Woude
+  title: Comparing powers of edge ideals
+  arxiv: 1709.08701
+  link: https://doi.org/10.1142/S0219498819501846
+  cite: J. Algebra Appl., 18(10):19, 2019
+  date: 2018-10-31
+
+- authors: K.-N. Lin and Y.-H. Shen
+  title: Symbolic powers and free resolutions of generalized star configurations of hypersurfaces
+  arxiv: 1912.04448
+  date: 2019-12-10
+
+- authors: P. Mantero
+  title: The structure and free resolutions of the symbolic powers of star configurations of hypersurfaces
+  arxiv: 1907.08172
+  date: 2019-07-18
+
+- authors: E. C. Moreno, C. Kohne, E.Sarmiento, and A. V. Tuyl
+  title: Powers of principal \(Q\)-borel ideals
+  arxiv: 2010.13889
+  date: 2020-10-26

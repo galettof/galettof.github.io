@@ -45,35 +45,5 @@ active: research
       </div>
     </section>
 
-    <section id="action">
-      <div class="card">
-	<div class="card-header">
-	  <h5 class="mb-0">Symbolic defect</h5>
-	</div>
-	<div class="card-body">
-	  The following is a list of references on symbolic defect.
-	</div>
-	<table class="table table-sm mb-0">
-	  <tbody>
-	    {% assign artlist = site.data.defect.articles | sort: 'date' %}
-	    {% for item in artlist %}
-	    <tr><td>[{{ forloop.index }}]</td>
-	      <td>{{ item.authors }} - {{ item.title }}<br>
-		{% if item.cite %}
-		<a href="{{ item.link }}" target="_blank">{{ item.cite }}</a>
-		{% if item.arxiv %}
-		 - 
-		{% endif %}
-		{% endif %}
-		{% if item.arxiv %}
-		<a href="http://arxiv.org/abs/{{ item.arxiv }}" target="_blank">arXiv:{{ item.arxiv }}</a></td>
-		{% endif %}
-	    </tr>
-	    {% endfor %}
-	  </tbody>
-	</table>
-      </div>
-    </section>
-
   </div>
 </div>
