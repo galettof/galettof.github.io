@@ -1,0 +1,93 @@
+# enclose values in '' when ending in 0 or containing :
+articles:
+
+- authors: J. Biermann, H. de Alba, F. Galetto, S. Murai, U. Nagel, A. O'Keefe, T. R&ouml;mer, and A. Seceleanu
+  title: Betti numbers of symmetric shifted ideals
+  arxiv: 1907.04288
+  link: https://doi.org/10.1016/j.jalgebra.2020.04.037
+  cite: J. Algebra, 560:312--342, 2020
+  date: 2020-10-15
+
+- authors: B. Chakraborty and M. Mandal
+  title: Invariants of the symbolic powers of edge ideals
+  arxiv: 1904.07717
+  link: https://doi.org/10.1142/S0219498820501844
+  cite: J. Algebra Appl., 19(10):19, 2020
+  date: 2019-10-08
+
+- authors: B. Drabkin, E. Grifo, A. Seceleanu, and B. Stone
+  title: Calculations involving symbolic powers
+  arxiv: '1712.01440'
+  link: https://doi.org/10.2140/jsag.2019.9.71
+  cite: J. Softw. Algebra Geom., 9(1):71--80, 2019
+  date: 2019-10-16
+
+- authors: B. Drabkin and L. Guerrieri
+  title: Asymptotic invariants of ideals with Noetherian symbolic Rees algebra and applications to cover ideals
+  arxiv: 1802.01884
+  link: https://doi.org/10.1016/j.jpaa.2019.05.008
+  cite: J. Pure Appl. Algebra, 224(1):300--319, 2020
+  date: 2019-05-08
+
+- authors: B. Drabkin and L. Guerrieri
+  title: On quasi-equigenerated and Freiman cover ideals of graphs
+  arxiv: 1909.07175
+  link: https://doi.org/10.1080/00927872.2020.1762890
+  cite: Commun. Algebra, 48(10):4413--4435, 2020
+  date: 2020-06-12
+
+- authors: R. Fr&ouml;berg, S. Lundqvist, A. Oneto, and B. Shapiro
+  title: Algebraic stories from one and from the other pockets
+  arxiv: 1801.01692
+  link: https://doi.org/10.1007/s40598-018-0088-z
+  cite: Arnold Math. J., 4(2):137--160, 2018
+  date: 2018-07-31
+
+- authors: H. T. Ha' and P. Mantero
+  title: The Alexander-Hirschowitz theorem and related problems
+  arxiv: 2101.09762
+  date: 2021-01-24
+
+- authors: H. Haghighi and M. Mosakhani
+  title: Containment problem for quasi star configurations of points in \(\mathbb P^2\)
+  arxiv: 1703.02827
+  link: https://doi.org/10.1142/S1005386718000469
+  cite: Algebra Colloq., 25(4):661--670, 2018
+  date: 2018-07-28
+
+- authors: B. Harbourne, J. Kettinger, and F. Zimmitti
+  title: Extreme values of the resurgence for homogeneous ideals in polynomial rings
+  arxiv: 2005.05282
+  date: 2020-05-11
+
+- authors: I. B. Jafarloo and G. Malara
+  title: Regularity and symbolic defect of points on rational normal curves
+  arxiv: 2007.08612
+  date: 2020-07-16
+
+- authors: I. B. Jafarloo and G. Zito
+  title: On the containment problem for fat points
+  arxiv: 1802.10178
+  date: 2018-02-27
+
+- authors: M. Janssen, T. Kamp, and J. Vander Woude
+  title: Comparing powers of edge ideals
+  arxiv: 1709.08701
+  link: https://doi.org/10.1142/S0219498819501846
+  cite: J. Algebra Appl., 18(10):19, 2019
+  date: 2018-10-31
+
+- authors: K.-N. Lin and Y.-H. Shen
+  title: Symbolic powers and free resolutions of generalized star configurations of hypersurfaces
+  arxiv: 1912.04448
+  date: 2019-12-10
+
+- authors: P. Mantero
+  title: The structure and free resolutions of the symbolic powers of star configurations of hypersurfaces
+  arxiv: 1907.08172
+  date: 2019-07-18
+
+- authors: E. C. Moreno, C. Kohne, E.Sarmiento, and A. V. Tuyl
+  title: Powers of principal \(Q\)-borel ideals
+  arxiv: 2010.13889
+  date: 2020-10-26

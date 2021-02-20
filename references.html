@@ -1,0 +1,49 @@
+---
+layout: default
+title: Federico Galetto - References
+keywords: references
+active: research
+---
+<div class="row">
+  <div class="col">
+
+    <section id="defect">
+      <div class="card">
+	<div class="card-header">
+	  <h5 class="mb-0">Symbolic defect</h5>
+	</div>
+	<div class="card-body">
+	  The following is a list of articles that mention the <em>symbolic defect</em> of an ideal.
+	  This notion was defined in [1] below to measure the gap between regular
+	  and symbolic powers of ideals. You can download this list as a <a href="files/sdefect.pdf" target="_blank">PDF</a> or <a href="files/sdefect.bib">BibTeX</a> file.
+	</div>
+	<table class="table table-sm mb-0">
+	  <tbody>
+	    <tr><td>[1]</td>
+	      <td>F. Galetto, A.V. Geramita, Y.S. Shin, and A. Van Tuyl<br>
+		The symbolic defect of an ideal<br>
+		<a href="https://doi.org/10.1016/j.jpaa.2018.11.019" target="_blank">J. Pure Appl. Algebra, 223(6):2709--2731, 2019</a> - <a href="http://arxiv.org/abs/1610.00176" target="_blank">arXiv:1610.00176</a></td>
+	    </tr>
+	    {% assign artlist = site.data.defect.articles | sort: 'date' %}
+	    {% for item in artlist %}
+	    <tr><td>[{{ forloop.index | plus:1 }}]</td>
+	      <td>{{ item.authors }}<br>
+		{{ item.title }}<br>
+		{% if item.cite %}
+		<a href="{{ item.link }}" target="_blank">{{ item.cite }}</a>
+		{% if item.arxiv %}
+		 - 
+		{% endif %}
+		{% endif %}
+		{% if item.arxiv %}
+		<a href="http://arxiv.org/abs/{{ item.arxiv }}" target="_blank">arXiv:{{ item.arxiv }}</a></td>
+		{% endif %}
+	    </tr>
+	    {% endfor %}
+	  </tbody>
+	</table>
+      </div>
+    </section>
+
+  </div>
+</div>
