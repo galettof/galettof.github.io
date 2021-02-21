@@ -43,7 +43,7 @@ articles:
   cite: Arnold Math. J., 4(2):137--160, 2018
   date: 2018-07-31
 
-- authors: H. T. Ha' and P. Mantero
+- authors: H. T. H&agrave; and P. Mantero
   title: The Alexander-Hirschowitz theorem and related problems
   arxiv: 2101.09762
   date: 2021-01-24
@@ -85,9 +85,17 @@ articles:
 - authors: P. Mantero
   title: The structure and free resolutions of the symbolic powers of star configurations of hypersurfaces
   arxiv: 1907.08172
-  date: 2019-07-18
+  link: https://doi.org/10.1090/tran/8208
+  cite: Trans. Am. Math. Soc., 373(12):8785--8835, 2020
+  date: 2020-10-05
 
 - authors: E. C. Moreno, C. Kohne, E.Sarmiento, and A. V. Tuyl
   title: Powers of principal \(Q\)-borel ideals
   arxiv: 2010.13889
   date: 2020-10-26
+
+- authors: E. Carlini, H. T. H&agrave;, B. Harbourne, and A. Van Tuyl
+  title: Ideals of powers and powers of ideals. Intersecting algebra, geometry, and combinatorics.
+  link: https://doi.org/10.1007/978-3-030-45247-6
+  cite: 'Volume 27 of Lecture Notes of the Unione Matematica Italiana. Cham: Springer, 2020'
+  date: 2020-01-01
