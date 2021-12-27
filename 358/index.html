@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+  </head>
+  <body>
+    <p>Use this form to estimate your grade in MTH 358 - Spring 2022. Enter the number of each standards evaluation received so far, and hit 'Submit'. Details on standards grading and grade calculation are available in the course syllabus and standards document for the course.</p>
+
+    <center>
+    <form autocomplete="off">
+      <label for="inputL">L:</label>
+      <input type="number" id="inputL" class="inputEvals" min="0" max="99" style="width: 3em" autofocus>
+      <label for="inputL">S:</label>
+      <input type="number" id="inputS" class="inputEvals" min="0" max="99" style="width: 3em">
+      <label for="inputL">M:</label>
+      <input type="number" id="inputM" class="inputEvals" min="0" max="99" style="width: 3em">
+      <label for="inputL">E:</label>
+      <input type="number" id="inputE" class="inputEvals" min="0" max="99" style="width: 3em">
+      <button type="button" onclick="buttonPress();">Submit</button>
+    </form>
+    </center>
+
+    <p><div id="missingStatement"></div></p>
+    <p><div id="tableInstructions"></div></p>
+
+    <center>
+      <table border="1">
+	<thead id="gradesTableHead">
+	</thead>
+	<tbody id="gradesTableBody">
+	</tbody>
+      </table>
+    </center>
+      
+    <script src="index.js"></script>
+  </body>
+</html>
