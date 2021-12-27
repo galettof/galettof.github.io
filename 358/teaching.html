@@ -99,34 +99,39 @@
 	      <div class="card-body">
 		<p>Use this form to estimate your grade in MTH 358 - Spring 2022. Enter the number of each standards evaluation received so far, and hit 'Submit'. Details on standards grading and grade calculation are available in the course syllabus and standards document for the course.</p>
 
-		<div class="btn-toolbar mb-3 justify-content-center" role="toolbar" aria-label="Standards evaluation input">
+		
+		<div class="btn-toolbar justify-content-center" role="toolbar" aria-label="Standards evaluation input">
 		  <!-- input fields -->
-		  <div class="input-group mr-2">
+		  <div class="input-group input-group-sm mr-2 mb-2">
 		    <div class="input-group-prepend">
 		      <div class="input-group-text" id="btnGroupAddon">L</div>
 		    </div>
 		    <input type="number" id="inputL" class="inputEvals form-control" min="0" max="99" style="width: 4em" autofocus aria-label="Number of L standards" aria-describedby="btnGroupAddon">
 		  </div>
-		  <div class="input-group mr-2">
+		  
+		  <div class="input-group input-group-sm mr-2 mb-2">
 		    <div class="input-group-prepend">
 		      <div class="input-group-text" id="btnGroupAddon">S</div>
 		    </div>
 		    <input type="number" id="inputS" class="inputEvals form-control" min="0" max="99" style="width: 4em" autofocus aria-label="Number of S standards" aria-describedby="btnGroupAddon">
 		  </div>
-		  <div class="input-group mr-2">
+		  
+		  <div class="input-group input-group-sm mr-2 mb-2">
 		    <div class="input-group-prepend">
 		      <div class="input-group-text" id="btnGroupAddon">M</div>
 		    </div>
 		    <input type="number" id="inputM" class="inputEvals form-control" min="0" max="99" style="width: 4em" autofocus aria-label="Number of M standards" aria-describedby="btnGroupAddon">
 		  </div>
-		  <div class="input-group mr-2">
+		  
+		  <div class="input-group input-group-sm mr-2 mb-2">
 		    <div class="input-group-prepend">
 		      <div class="input-group-text" id="btnGroupAddon">E</div>
 		    </div>
 		    <input type="number" id="inputE" class="inputEvals form-control" min="0" max="99" style="width: 4em" autofocus aria-label="Number of E standards" aria-describedby="btnGroupAddon">
 		  </div>
+		  
 		  <!-- button -->
-		  <div class="btn-group" role="group" aria-label="Submit button">
+		  <div class="btn-group btn-group-sm mb-2" role="group" aria-label="Submit button">
 		    <button type="button" class="btn btn-success" onclick="buttonPress();">Submit</button>
 		  </div>
 		</div>
