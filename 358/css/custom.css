@@ -1,0 +1,111 @@
+/* smooth scrolling, padding for links to sections */
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 4.5em;
+}
+
+/* the body class is applied to the page content container div
+ and this pushes it down so it's not covered by the navbar */
+.body {
+    padding-top: 5em;
+}
+
+/* center crop image on home page */
+.img-crop {
+    object-fit: cover;
+}
+
+/* Card margins, padding, color */
+.card {
+    margin-bottom: 1.5em;
+}
+
+.card-body {
+    padding: 0.5em;
+}
+.card-header {
+    padding: 0.5em;
+    background-color: rgba(0,0,0,0.05); 
+}
+
+/* Table padding */
+
+.table tr td {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+
+/* Remove top border from all td cells of the first tr element in each table */
+
+table.notop tr:first-child td {
+    border-top: none;
+}
+
+
+/* Navbar and nav item custom colors */
+.navbar {
+    background-color: #004c37!important;
+}
+.nav-link {
+    border: none;
+}
+.nav-link:hover  {
+    background-color: #69be28 !important;
+    color: #000000 !important;
+}
+.dropdown-menu {
+    background-color: #004c37 !important;
+}
+.dropdown-item {
+    color: #ffffff;
+}
+.dropdown-item:hover {
+    background-color: #69be28 !important;
+    color: #000000;
+}
+
+/* Reduce padding around navbar brand to shrink navbar */
+.navbar-brand {
+    padding-top:0;padding-bottom:0;
+}
+
+/* Remove button border */
+.btn:focus,.btn:active {
+    box-shadow: none !important;
+}
+
+/* Footer sticky and style */
+
+.Site {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.Site-content {
+    flex: 1;
+}
+
+footer {
+    margin-top: 4em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    background-color: rgba(0,0,0,0.05);
+    border-top: 1px solid rgba(0, 0, 0, 0.075);
+}
+
+/* changing carets for collapsible cards */
+
+/* @import url("https://use.fontawesome.com/releases/v5.0.13/css/all.css"); */
+
+.card-header [data-toggle="collapse"]:before {
+    font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f068";
+    /*font-family: 'FontAwesome';
+    content: "\f068";*/
+  }   
+.card-header [data-toggle="collapse"].collapsed:before {
+    font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f067";
+    /*font-family: 'FontAwesome';
+    content: "\f067";*/
+}
