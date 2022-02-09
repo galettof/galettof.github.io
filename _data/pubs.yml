@@ -81,7 +81,9 @@ articles:
 
 - title: Finite group characters on free resolutions
   arxiv: 2106.14071
-  date: 2021-06-26
+  link: 'https://doi.org/10.1016/j.jsc.2022.02.001'
+  cite: J. Symbolic Comput., In Press
+  date: 2022-02-08
 
 - title: Setting the scene for Betti characters
   arxiv: 2106.16062
