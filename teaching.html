@@ -31,37 +31,12 @@ active: teaching
       </div>
       <table class="table notop table-sm mb-0">
 	<tbody>
-	  <tr><td><a href="files/syllabi/CSU-MTH434.pdf">
-		MTH 434/534 - Differential Geometry</a></td>
+	  {% assign csulist = site.data.taught.csu %}
+	  {% for item in csulist %}
+	  <tr><td><a href="files/syllabi/{{ item.file }}">
+		{{ item.title }}</a></td>
 	  </tr>
-	  <tr><td><a href="files/syllabi/CSU-MTH301.pdf">
-		MTH 301 - Introduction to Number Theory</a></td>
-	  </tr>
-	  <tr><td><a href="files/syllabi/CSU-MTH415.pdf">
-		MTH 415/515 - Real Analysis</a></td>
-	  </tr>
-	  <tr><td><a href="files/syllabi/CSU-MTH493.pdf">
-		MTH 493/593 - Computational Commutative Algebra</a></td>
-	  </tr>
-	  <tr><td><a href="files/syllabi/CSU-MTH220.pdf">
-		MTH 220 - Introduction to Discrete Mathematics</a></td>
-	  </tr>
-	  <tr><td><a href="files/syllabi/CSU-MTH358.pdf">
-		MTH 358 - Abstract Algebra</a></td>
-	  </tr>
-	  <tr><td><a href="files/syllabi/CSU-MTH482.pdf">
-		MTH 482/582 - Topics in Number Theory</a></td>
-	  </tr>
-	  <tr>
-	    <td><a href="files/syllabi/CSU-MTH333.pdf">
-		MTH 333 - Geometry</a>
-	    </td>
-	  </tr>
-	  <tr>
-	    <td><a href="files/syllabi/CSU-MTH514.pdf">
-		MTH 514 - Linear Algebra/Functions of Several Variables</a>
-	    </td>
-	  </tr>
+	  {% endfor %}
 	</tbody>
       </table>
     </div>
