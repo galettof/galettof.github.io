@@ -1,0 +1,38 @@
+# enclose values in '' when ending in 0 or containing :
+csu:
+
+- title: MTH 434/534 - Differential Geometry
+  file: CSU-MTH434.pdf
+  date: 2021-08-01
+
+- title: MTH 301 - Introduction to Number Theory
+  file: CSU-MTH301.pdf
+  date: 2021-08-01
+
+- title: MTH 415/515 - Real Analysis
+  file: CSU-MTH415.pdf
+  date: 2021-01-01
+
+- title: MTH 493/593 - Computational Commutative Algebra
+  file: CSU-MTH493cca.pdf
+  date: 2020-01-01
+
+- title: MTH 220 - Introduction to Discrete Mathematics
+  file: CSU-MTH220.pdf
+  date: 2020-01-01
+
+- title: MTH 358 - Abstract Algebra
+  file: CSU-MTH358.pdf
+  date: 2019-08-01
+
+- title: MTH 482/582 - Topics in Number Theory
+  file: CSU-MTH482.pdf
+  date: 2019-01-01
+
+- title: MTH 333 - Geometry
+  file: CSU-MTH333.pdf
+  date: 2018-08-01
+
+- title: MTH 514 - Linear Algebra/Functions of Several Variables
+  file: CSU-MTH514.pdf
+  date: 2018-08-01
