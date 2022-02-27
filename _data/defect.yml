@@ -58,7 +58,9 @@ articles:
 - authors: B. Harbourne, J. Kettinger, and F. Zimmitti
   title: Extreme values of the resurgence for homogeneous ideals in polynomial rings
   arxiv: 2005.05282
-  date: 2020-05-11
+  link: https://doi.org/10.1016/j.jpaa.2021.106811
+  cite: J. Pure Appl. Algebra, 226(2):16, 2022. Id/No 106811
+  date: 2021-06-17
 
 - authors: I. B. Jafarloo and G. Malara
   title: Regularity and symbolic defect of points on rational normal curves
@@ -114,3 +116,9 @@ articles:
   title: A formula for symbolic powers
   arxiv: 2112.12588
   date: 2021-12-23
+
+- authors: M. Mandal and D. K. Pradhan
+  title: Symbolic defects of edge ideals of unicyclic graphs
+  link: https://doi.org/10.1142/S0219498823500998
+  cite: J. Algebra Appl., 0(0):2350099, 0
+  date: 2022-02-24
