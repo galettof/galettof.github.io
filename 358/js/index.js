@@ -1,5 +1,5 @@
 // total number of standards
-let tot = 49;
+let tot = 47;
 // change max value for input fields
 {
     // variable defined with let is local to {} block
