@@ -7,133 +7,164 @@ active: teaching
 <div class="row">
   <div class="col">
 
-    <div class="alert alert-warning alert-dismissible fade show" role="alert">
-      Students currently enrolled in classes may find up to date information on <a href="https://www.csuohio.edu/center-for-elearning/blackboard-login" target="_blank">Blackboard</a>.
-      <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-	<span aria-hidden="true">&times;</span>
-      </button>
-    </div>
-    <div class="card">
-      <div class="card-header">
-	<h5 class="mb-0">Currently teaching</h5>
+    <section id="current">
+      <div class="alert alert-warning alert-dismissible fade show" role="alert">
+	Students currently enrolled in classes may find up to date information on <a href="https://www.csuohio.edu/center-for-elearning/blackboard-login" target="_blank">Blackboard</a>.
+	<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+	  <span aria-hidden="true">&times;</span>
+	</button>
       </div>
-      <table class="table notop table-sm mb-0">
-	<tbody>
-	  <tr><td>MTH 358 - Abstract Algebra</td></tr>
-	  <tr><td>MTH 482/582 - Topics in Number Theory</td></tr>
-	</tbody>
-      </table>
-    </div>
 
-    <div class="card">
-      <div class="card-header">
-	<h5 class="mb-0">Cleveland State University</h5>
+      <div class="card">
+	<div class="card-header">
+	  <h5 class="mb-0">Currently teaching</h5>
+	</div>
+	<table class="table notop table-sm mb-0">
+	  <tbody>
+	    <tr><td>--</td></tr>
+	  </tbody>
+	</table>
       </div>
-      <table class="table notop table-sm mb-0">
-	<tbody>
-	  {% assign csulist = site.data.taught.csu %}
-	  {% for item in csulist %}
-	  <tr><td><a href="files/syllabi/{{ item.file }}">
-		{{ item.title }}</a></td>
-	  </tr>
-	  {% endfor %}
-	</tbody>
-      </table>
-    </div>
+    </section>
 
-    <div class="card">
-      <div class="card-header">
-	<h5 class="mb-0">McMaster University</h5>
+    <section id="mentoring">
+      <div class="card">
+	<div class="card-header">
+	  <h5 class="mb-0">Students mentored</h5>
+	</div>
+	<table class="table notop table-sm mb-0">
+	  <tbody>
+	    <tr>
+	      <td style="width:15%"><span class="font-weight-bold">Name</span></td>
+	      <td><span class="font-weight-bold">Course/Position</span></td>
+	      <td style="width:40%"><span class="font-weight-bold">Project title</span></td>
+	      <td style="width:15%"><span class="font-weight-bold">Term</span></td>
+	    </tr>
+	    {% assign mentees = site.data.mentoring.csu | sort: 'date' %}
+	    {% for item in mentees %}
+	    <tr>
+	      <td>{{ item.name }}</td>
+	      <td>{{ item.course }}</td>
+	      <td>{{ item.title }}</td>
+	      <td>{{ item.term }}</td>
+	    </tr>
+	    {% endfor %}
+	  </tbody>
+	</table>
       </div>
-      <table class="table notop table-sm mb-0">
-	<tbody>
-	  <tr>
-	    <td><a href="files/syllabi/MCMASTER-MATH1AA3.pdf">
-		MATH 1AA3 - Calculus II / MATH 1ZB3 - Engineering Mathematics II-A</a>
-	    </td>
-	  </tr>
-	  <tr>
-	    <td><a href="files/syllabi/MCMASTER-MATH3V03.pdf">
-		MATH 3V03 - Graph Theory</a>
-	    </td>
-	  </tr>
-	  <tr>
-	    <td><a href="files/syllabi/MCMASTER-MATH3B03.pdf">
-		MATH 3B03 - Geometry</a>
-	    </td>
-	  </tr>
-	  <tr>
-	    <td><a href="files/syllabi/MCMASTER-MATH702.pdf">
-		MATH 702 - Algebra II (Graduate)</a>
-	    </td>
-	  </tr>
-	  <tr>
-	    <td><a href="files/syllabi/MCMASTER-MATH2R03.pdf">
-		MATH 2R03 - Linear Algebra II</a>
-	    </td>
-	  </tr>
-	  <tr>
-	    <td><a href="files/syllabi/MCMASTER-MATH1A03.pdf">
-		MATH 1A03 - Calculus for Science I</a>
-	    </td>
-	  </tr>
-	</tbody>
-      </table>
-    </div>
+    </section>
 
-    <div class="card">
-      <div class="card-header">
-	<h5 class="mb-0">Queen's University</h5>
+    <section id="past">
+      <div class="card">
+	<div class="card-header">
+	  <h5 class="mb-0">Cleveland State University</h5>
+	</div>
+	<table class="table notop table-sm mb-0">
+	  <tbody>
+	    {% assign csulist = site.data.taught.csu %}
+	    {% for item in csulist %}
+	    <tr><td><a href="files/syllabi/{{ item.file }}">
+		  {{ item.title }}</a></td>
+	    </tr>
+	    {% endfor %}
+	  </tbody>
+	</table>
       </div>
-      <table class="table notop table-sm mb-0">
-	<tbody>
-	  <tr>
-	    <td><a href="files/syllabi/QUEENS-MATH281.pdf">
-		MATH/MTHE 281 - Introduction to Real Analysis</a>
-	    </td>
-	  </tr>
-	  <tr>
-	    <td><a href="files/syllabi/QUEENS-APSC171J.pdf">
-		APSC 171 - Section 900 - Calculus I</a>
-	    </td>
-	  </tr>
-	  <tr>
-	    <td><a href="files/syllabi/QUEENS-APSC171.pdf">
-		APSC 171 - Calculus I</a>
-	    </td>
-	  </tr>
-	</tbody>
-      </table>
-    </div>
 
-    <div class="card">
-      <div class="card-header">
-	<h5 class="mb-0">Northeastern University</h5>
+      <div class="card">
+	<div class="card-header">
+	  <h5 class="mb-0">McMaster University</h5>
+	</div>
+	<table class="table notop table-sm mb-0">
+	  <tbody>
+	    <tr>
+	      <td><a href="files/syllabi/MCMASTER-MATH1AA3.pdf">
+		  MATH 1AA3 - Calculus II / MATH 1ZB3 - Engineering Mathematics II-A</a>
+	      </td>
+	    </tr>
+	    <tr>
+	      <td><a href="files/syllabi/MCMASTER-MATH3V03.pdf">
+		  MATH 3V03 - Graph Theory</a>
+	      </td>
+	    </tr>
+	    <tr>
+	      <td><a href="files/syllabi/MCMASTER-MATH3B03.pdf">
+		  MATH 3B03 - Geometry</a>
+	      </td>
+	    </tr>
+	    <tr>
+	      <td><a href="files/syllabi/MCMASTER-MATH702.pdf">
+		  MATH 702 - Algebra II (Graduate)</a>
+	      </td>
+	    </tr>
+	    <tr>
+	      <td><a href="files/syllabi/MCMASTER-MATH2R03.pdf">
+		  MATH 2R03 - Linear Algebra II</a>
+	      </td>
+	    </tr>
+	    <tr>
+	      <td><a href="files/syllabi/MCMASTER-MATH1A03.pdf">
+		  MATH 1A03 - Calculus for Science I</a>
+	      </td>
+	    </tr>
+	  </tbody>
+	</table>
       </div>
-      <table class="table notop table-sm mb-0">
-	<tbody>
-	  <tr>
-	    <td><a href="files/syllabi/NEU-MATH1215.pdf">
-		MATH 1215 - Mathematical Thinking</a>
-	    </td>
-	  </tr>
-	  <tr>
-	    <td><a href="files/syllabi/NEU-MATH1341.pdf">
-		MATH 1341 - Calculus 1 for Science and Engineering</a>
-	    </td>
-	  </tr>
-	  <tr>
-	    <td><a href="files/syllabi/NEU-MTHU131.pdf">
-		MTH U131 - Calculus for Business and Economics</a>
-	    </td>
-	  </tr>
-	  <tr>
-	    <td>Calculus 3 (recitation section)
-	    </td>
-	  </tr>
-	</tbody>
-      </table>
-    </div>
+
+      <div class="card">
+	<div class="card-header">
+	  <h5 class="mb-0">Queen's University</h5>
+	</div>
+	<table class="table notop table-sm mb-0">
+	  <tbody>
+	    <tr>
+	      <td><a href="files/syllabi/QUEENS-MATH281.pdf">
+		  MATH/MTHE 281 - Introduction to Real Analysis</a>
+	      </td>
+	    </tr>
+	    <tr>
+	      <td><a href="files/syllabi/QUEENS-APSC171J.pdf">
+		  APSC 171 - Section 900 - Calculus I</a>
+	      </td>
+	    </tr>
+	    <tr>
+	      <td><a href="files/syllabi/QUEENS-APSC171.pdf">
+		  APSC 171 - Calculus I</a>
+	      </td>
+	    </tr>
+	  </tbody>
+	</table>
+      </div>
+
+      <div class="card">
+	<div class="card-header">
+	  <h5 class="mb-0">Northeastern University</h5>
+	</div>
+	<table class="table notop table-sm mb-0">
+	  <tbody>
+	    <tr>
+	      <td><a href="files/syllabi/NEU-MATH1215.pdf">
+		  MATH 1215 - Mathematical Thinking</a>
+	      </td>
+	    </tr>
+	    <tr>
+	      <td><a href="files/syllabi/NEU-MATH1341.pdf">
+		  MATH 1341 - Calculus 1 for Science and Engineering</a>
+	      </td>
+	    </tr>
+	    <tr>
+	      <td><a href="files/syllabi/NEU-MTHU131.pdf">
+		  MTH U131 - Calculus for Business and Economics</a>
+	      </td>
+	    </tr>
+	    <tr>
+	      <td>Calculus 3 (recitation section)
+	      </td>
+	    </tr>
+	  </tbody>
+	</table>
+      </div>
+    </section>
 
   </div>
 

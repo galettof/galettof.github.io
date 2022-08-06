@@ -63,11 +63,25 @@
 		</a>
 	      </li>
 
+	      <!--
 	      <li class="nav-item pl-1 pt-2 pt-lg-0 {% if page.active == "teaching" %}active{% endif %}">
 		<a class="nav-link btn btn-outline-primary py-1" href="teaching.html" role="button">
 		  <span class="fas fa-graduation-cap"></span>
 		  &nbsp;Teaching
 		</a>
+	      </li>
+	      -->
+
+	      <li class="nav-item dropdown pl-1 pt-2 pt-lg-0" data-toggle="collapse" data-target=".navbar-collapse.show">
+		<a class="nav-link dropdown-toggle btn py-1 w-100 {% if page.active == "teaching" %}active{% endif %}" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+		  <span class="fas fa-graduation-cap"></span>
+		    &nbsp;Teaching
+		</a>
+		<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+		  <a class="dropdown-item" href="teaching.html#current">Current</a>
+		  <a class="dropdown-item" href="teaching.html#mentoring">Mentoring</a>
+		  <a class="dropdown-item" href="teaching.html#past">Past Courses</a>
+		</div>
 	      </li>
 
 	      <li class="nav-item dropdown pl-1 pt-2 pt-lg-0" data-toggle="collapse" data-target=".navbar-collapse.show">
