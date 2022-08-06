@@ -31,15 +31,13 @@ active: teaching
 	<h5 class="mb-0">Students mentored</h5>
       </div>
       <table class="table notop table-sm mb-0">
-	<thead>
-	  <tr>
-	    <th style="width:15%">Name</th>
-	    <th>Course/Position</th>
-	    <th style="width:40%">Project title</th>
-	    <th style="width:15%">Term</th>
-	  </tr>
-	</thead>
 	<tbody>
+	  <tr>
+	    <td style="width:15%"><span class="font-weight-bold">Name</span></td>
+	    <td><span class="font-weight-bold">Course/Position</span></td>
+	    <td style="width:40%"><span class="font-weight-bold">Project title</span></td>
+	    <td style="width:15%"><span class="font-weight-bold">Term</span></td>
+	  </tr>
 	  {% assign mentees = site.data.mentoring.csu | sort: 'date' %}
 	  {% for item in mentees %}
 	  <tr>

@@ -35,11 +35,6 @@ html {
     padding-right: 0.5em;
 }
 
-.table tr th {
-    padding-left: 0.5em;
-    padding-right: 0.5em;
-}
-
 
 /* Remove top border from all td cells of the first tr element in each table */
 
