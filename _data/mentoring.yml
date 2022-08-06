@@ -1,0 +1,86 @@
+# enclose values in '' when ending in 0 or containing :
+csu:
+
+- name: A. Ellis
+  course: MTH 496 Senior Project
+  title: Conics
+  term: Spring 2019
+  date: 2019-01-01
+
+- name: E. Helmick
+  course: USRA
+  title: Jets of graphs
+  term: Summer 2020
+  date: 2020-06-01
+
+- name: M. Walsh
+  course: USRA
+  title: Jets of graphs
+  term: Summer 2020
+  date: 2020-06-01
+
+- name: C. Hyer
+  course: MTH 597 Independent Study
+  title: Projective Geometry
+  term: Fall 2020
+  date: 2020-09-01
+
+- name: N. Iammarino
+  course: MTH 597 Independent Study
+  title: Projective Geometry
+  term: Fall 2020
+  date: 2020-09-01
+
+- name: K. Sammon
+  course: MTH 415 Real Analysis (honors contract)
+  title: Proofs of the root and ratio tests
+  term: Spring 2021
+  date: 2021-01-01
+
+- name: N. Nunez
+  course: MTH 496 Senior Project
+  title: Models of Hyperbolic Geometry
+  term: Spring 2021
+  date: 2021-01-01
+
+- name: N. Benedict
+  course: MTH 496 Senior Project
+  title: Elliptic Curve Cryptography
+  term: Spring 2021
+  date: 2021-01-01
+
+- name: C. Hyer
+  course: MTH 696 Mathematics Exit Project
+  title: Tropical Geometry
+  term: Spring 2021
+  date: 2021-01-01
+
+- name: N. Iammarino
+  course: Research Assistant
+  title: Macaulay2 Jets package
+  term: Spring 2021
+  date: 2021-01-01
+
+- name: C. Scott
+  course: MTH 496 Senior Project
+  title: A Mathematical Approach to Digital Signature Schemes
+  term: Fall 2021
+  date: 2021-09-01
+
+- name: N. Iammarino
+  course: MTH 696 Mathematics Exit Project
+  title: The Principal Component of the Jets of a Graph
+  term: Fall 2021
+  date: 2021-09-01
+
+- name: J.S. Richard
+  course: MTH 358 Abstract Algebra (honors contract)
+  title: A Graphical Explanation of the Todd-Coxeter Algorithm
+  term: Spring 2022
+  date: 2022-01-01
+
+- name: M. Lysyj
+  course: MTH 696 Mathematics Exit Project
+  title: The Four Color Theorem and Relations to Graph Theory
+  term: Spring 2022
+  date: 2022-01-01

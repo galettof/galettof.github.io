@@ -33,19 +33,22 @@ active: teaching
       <table class="table notop table-sm mb-0">
 	<thead>
 	  <tr>
-	    <th>Name</th>
+	    <th style="width:15%">Name</th>
 	    <th>Course/Position</th>
-	    <th>Project title</th>
-	    <th>Term</th>
+	    <th style="width:40%">Project title</th>
+	    <th style="width:15%">Term</th>
 	  </tr>
 	</thead>
 	<tbody>
+	  {% assign mentees = site.data.mentoring.csu | sort: 'date' %}
+	  {% for item in mentees %}
 	  <tr>
-	    <td>A. Ellis</td>
-	    <td>MTH 496 Senior Project</td>
-	    <td>Conics</td>
-	    <td>Spring 2019</td>
+	    <td>{{ item.name }}</td>
+	    <td>{{ item.course }}</td>
+	    <td>{{ item.title }}</td>
+	    <td>{{ item.term }}</td>
 	  </tr>
+	  {% endfor %}
 	</tbody>
       </table>
     </div>
