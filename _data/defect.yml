@@ -5,96 +5,92 @@ articles:
   title: Betti numbers of symmetric shifted ideals
   arxiv: 1907.04288
   link: https://doi.org/10.1016/j.jalgebra.2020.04.037
-  cite: J. Algebra, 560:312--342, 2020
+  cite: <i>J. Algebra</i>, 560:312--342, 2020
   date: 2020-10-15
 
 - authors: B. Chakraborty and M. Mandal
   title: Invariants of the symbolic powers of edge ideals
   arxiv: 1904.07717
   link: https://doi.org/10.1142/S0219498820501844
-  cite: J. Algebra Appl., 19(10):19, 2020
+  cite: <i>J. Algebra Appl.</i>, 19(10):19, 2020
   date: 2019-10-08
 
 - authors: B. Drabkin, E. Grifo, A. Seceleanu, and B. Stone
   title: Calculations involving symbolic powers
   arxiv: '1712.01440'
   link: https://doi.org/10.2140/jsag.2019.9.71
-  cite: J. Softw. Algebra Geom., 9(1):71--80, 2019
+  cite: <i>J. Softw. Algebra Geom.</i>, 9(1):71--80, 2019
   date: 2019-10-16
 
 - authors: B. Drabkin and L. Guerrieri
   title: Asymptotic invariants of ideals with Noetherian symbolic Rees algebra and applications to cover ideals
   arxiv: 1802.01884
   link: https://doi.org/10.1016/j.jpaa.2019.05.008
-  cite: J. Pure Appl. Algebra, 224(1):300--319, 2020
+  cite: <i>J. Pure Appl. Algebra</i>, 224(1):300--319, 2020
   date: 2019-05-08
 
 - authors: B. Drabkin and L. Guerrieri
   title: On quasi-equigenerated and Freiman cover ideals of graphs
   arxiv: 1909.07175
   link: https://doi.org/10.1080/00927872.2020.1762890
-  cite: Commun. Algebra, 48(10):4413--4435, 2020
+  cite: <i>Commun. Algebra</i>, 48(10):4413--4435, 2020
   date: 2020-06-12
 
 - authors: R. Fr&ouml;berg, S. Lundqvist, A. Oneto, and B. Shapiro
   title: Algebraic stories from one and from the other pockets
   arxiv: 1801.01692
   link: https://doi.org/10.1007/s40598-018-0088-z
-  cite: Arnold Math. J., 4(2):137--160, 2018
+  cite: <i>Arnold Math. J.</i>, 4(2):137--160, 2018
   date: 2018-07-31
 
 - authors: H. T. H&agrave; and P. Mantero
   title: The Alexander-Hirschowitz theorem and related problems
   arxiv: 2101.09762
-  date: 2021-01-24
+  link: https://doi.org/10.1007/978-3-030-89694-2_12
+  cite: In <i>Commutative algebra. Expository papers dedicated to David Eisenbud on the occasion of his 75th birthday</i>, pages 373--427. Cham&colon; Springer, 2021
+  date: 2021-10-21
 
 - authors: H. Haghighi and M. Mosakhani
   title: Containment problem for quasi star configurations of points in \(\mathbb P^2\)
   arxiv: 1703.02827
   link: https://doi.org/10.1142/S1005386718000469
-  cite: Algebra Colloq., 25(4):661--670, 2018
+  cite: <i>Algebra Colloq.</i>, 25(4):661--670, 2018
   date: 2018-07-28
 
 - authors: B. Harbourne, J. Kettinger, and F. Zimmitti
   title: Extreme values of the resurgence for homogeneous ideals in polynomial rings
   arxiv: 2005.05282
   link: https://doi.org/10.1016/j.jpaa.2021.106811
-  cite: J. Pure Appl. Algebra, 226(2):16, 2022. Id/No 106811
+  cite: <i>J. Pure Appl. Algebra</i>, 226(2):16, 2022. Id/No 106811
   date: 2021-06-17
-
-- authors: I. B. Jafarloo and G. Malara
-  title: Regularity and symbolic defect of points on rational normal curves
-  arxiv: 2007.08612
-  date: 2020-07-16
 
 - authors: I. B. Jafarloo and G. Zito
   title: On the containment problem for fat points
   arxiv: 1802.10178
-  date: 2018-02-27
+  link: https://doi.org/10.1216/jca.2021.13.305
+  cite: <i>J. Commut. Algebra</i>, 13(3):305--321, 2021
+  date: 2019-03-03
 
 - authors: M. Janssen, T. Kamp, and J. Vander Woude
   title: Comparing powers of edge ideals
   arxiv: 1709.08701
   link: https://doi.org/10.1142/S0219498819501846
-  cite: J. Algebra Appl., 18(10):19, 2019
+  cite: <i>J. Algebra Appl.</i>, 18(10):19, 2019
   date: 2018-10-31
-
-- authors: K.-N. Lin and Y.-H. Shen
-  title: Symbolic powers and free resolutions of generalized star configurations of hypersurfaces
-  arxiv: 1912.04448
-  date: 2019-12-10
 
 - authors: P. Mantero
   title: The structure and free resolutions of the symbolic powers of star configurations of hypersurfaces
   arxiv: 1907.08172
   link: https://doi.org/10.1090/tran/8208
-  cite: Trans. Am. Math. Soc., 373(12):8785--8835, 2020
+  cite: <i>Trans. Am. Math. Soc.</i>, 373(12):8785--8835, 2020
   date: 2020-10-05
 
-- authors: E. C. Moreno, C. Kohne, E.Sarmiento, and A. V. Tuyl
+- authors: E. C. Moreno, C. Kohne, E. Sarmiento, and A. Van Tuyl
   title: Powers of principal \(Q\)-borel ideals
   arxiv: 2010.13889
-  date: 2020-10-26
+  link: https://doi.org/10.4153/S0008439521000606
+  cite: <i>Can. Math. Bull.</i>, 65(3):633--652, 2022
+  date: 2021-08-23
 
 - authors: E. Carlini, H. T. H&agrave;, B. Harbourne, and A. Van Tuyl
   title: Ideals of powers and powers of ideals. Intersecting algebra, geometry, and combinatorics.
@@ -105,21 +101,41 @@ articles:
 - authors: K.-N. Lin and Y.-H. Shen
   title: Symbolic powers of generalized star configurations of hypersurfaces
   arxiv: 2106.02955
-  date: 2021-06-05
+  link: https://doi.org/10.1016/j.jalgebra.2021.11.015
+  cite: <i>J. Algebra</i>, 593:193--216, 2022
+  date: 2021-11-22
 
-- authors: A. V. Jayanthan, Arvind Kumar and Vivek Mukundan
+- authors: A. V. Jayanthan, A. Kumar, and V. Mukundan
   title: On the resurgence and asymptotic resurgence of homogeneous ideals
   arxiv: 2106.15261
+  link: https://doi.org/10.1007/s00209-022-03138-w
+  cite: <i>Math. Z.</i>, 302(4):2407--2434, 2022
   date: 2021-06-29
-
-- authors: Paolo Mantero, Cleto B. Miranda-Neto, Uwe Nagel
-  title: A formula for symbolic powers
-  arxiv: 2112.12588
-  date: 2021-12-23
 
 - authors: M. Mandal and D. K. Pradhan
   title: Symbolic defects of edge ideals of unicyclic graphs
   arxiv: 2204.05489
   link: https://doi.org/10.1142/S0219498823500998
-  cite: J. Algebra Appl., 0(0):2350099, 0
+  cite: <i>J. Algebra Appl.</i>, 0(0):2350099, 0
   date: 2022-02-24
+
+- authors: T. Reimer
+  title: The symbolic defect sequence of edge ideals
+  link: http://hdl.handle.net/1993/36734
+  cite: PhD Thesis, University of Manitoba, 2022
+  date: 2022-08-23
+
+- authors: I. B. Jafarloo and G. Malara
+  title: Regularity and symbolic defect of points on rational normal curves
+  arxiv: 2007.08612
+  date: 2020-07-16
+
+- authors: K.-N. Lin and Y.-H. Shen
+  title: Symbolic powers and free resolutions of generalized star configurations of hypersurfaces
+  arxiv: 1912.04448
+  date: 2019-12-10
+
+- authors: Paolo Mantero, Cleto B. Miranda-Neto, Uwe Nagel
+  title: A formula for symbolic powers
+  arxiv: 2112.12588
+  date: 2021-12-23
