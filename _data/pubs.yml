@@ -77,12 +77,14 @@ articles:
 
 - title: Jet Graphs (with E. Helmick and M. Walsh)
   arxiv: 2104.08933
-  date: 2021-04-18
+  link: 'https://doi.org/10.2140/involve.2021.14.793'
+  cite: Involve, 14(5):793--812, 2021
+  date: 2022-02-09
 
 - title: Finite group characters on free resolutions
   arxiv: 2106.14071
   link: 'https://doi.org/10.1016/j.jsc.2022.02.001'
-  cite: J. Symbolic Comput., In Press
+  cite: J. Symbolic Comput., 113:29--38, 2022
   date: 2022-02-08
 
 - title: Setting the scene for Betti characters
