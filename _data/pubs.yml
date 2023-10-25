@@ -89,8 +89,12 @@ articles:
 
 - title: Setting the scene for Betti characters
   arxiv: 2106.16062
-  date: 2021-06-30
+  link: 'https://doi.org/10.2140/jsag.2023.13.45'
+  cite: J. Softw. Algebra Geom., 13(1):45--51, 2023
+  date: 2023-08-28
 
 - title: Computing with jets (with N. Iammarino)
   arxiv: '2108.06350'
-  date: 2021-08-13
+  link: 'https://doi.org/10.2140/jsag.2022.12.43'
+  cite: J. Softw. Algebra Geom., 12(1):43--49, 2022
+  date: 2023-01-23
