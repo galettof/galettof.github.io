@@ -133,9 +133,16 @@ articles:
 - authors: K.-N. Lin and Y.-H. Shen
   title: Symbolic powers and free resolutions of generalized star configurations of hypersurfaces
   arxiv: 1912.04448
+  link: https://doi.org/10.1307/mmj/20205890
+  cite: <i>Mich. Math. J.</i>, 73(1):33–66, 2023
   date: 2019-12-10
 
-- authors: Paolo Mantero, Cleto B. Miranda-Neto, Uwe Nagel
+- authors: P. Mantero, C. B. Miranda-Neto, U. Nagel
   title: A formula for symbolic powers
   arxiv: 2112.12588
   date: 2021-12-23
+
+- authors: B. R. Oltsik
+  title: Symbolic Defect of Monomial Ideals
+  arxiv: 2310.12280
+  date: 2023-10-18
