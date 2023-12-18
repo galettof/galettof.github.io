@@ -2,55 +2,43 @@
 csu:
 
 - name: A. Ellis
-  course: MTH 496 Senior Project
+  course: Senior Project
   title: Conics
   term: Spring 2019
   date: 2019-01-01
 
-- name: E. Helmick
-  course: USRA
+- name: E. Helmick<br>M. Walsh
+  course: Undergraduate Summer Research Award
   title: Jets of graphs
   term: Summer 2020
   date: 2020-06-01
 
-- name: M. Walsh
-  course: USRA
-  title: Jets of graphs
-  term: Summer 2020
-  date: 2020-06-01
-
-- name: C. Hyer
-  course: MTH 597 Independent Study
-  title: Projective Geometry
-  term: Fall 2020
-  date: 2020-09-01
-
-- name: N. Iammarino
-  course: MTH 597 Independent Study
+- name: C. Hyer<br>N. Iammarino
+  course: Independent Study Course
   title: Projective Geometry
   term: Fall 2020
   date: 2020-09-01
 
 - name: K. Sammon
-  course: MTH 415 Real Analysis (honors contract)
+  course: Real Analysis honors contract
   title: Proofs of the root and ratio tests
   term: Spring 2021
   date: 2021-01-01
 
 - name: N. Nunez
-  course: MTH 496 Senior Project
+  course: Senior Project
   title: Models of Hyperbolic Geometry
   term: Spring 2021
   date: 2021-01-01
 
 - name: N. Benedict
-  course: MTH 496 Senior Project
+  course: Senior Project
   title: Elliptic Curve Cryptography
   term: Spring 2021
   date: 2021-01-01
 
 - name: C. Hyer
-  course: MTH 696 Mathematics Exit Project
+  course: Graduate Exit Project
   title: Tropical Geometry
   term: Spring 2021
   date: 2021-01-01
@@ -62,38 +50,37 @@ csu:
   date: 2021-01-01
 
 - name: C. Scott
-  course: MTH 496 Senior Project
+  course: Senior Project
   title: A Mathematical Approach to Digital Signature Schemes
   term: Fall 2021
   date: 2021-09-01
 
 - name: N. Iammarino
-  course: MTH 696 Mathematics Exit Project
+  course: Graduate Exit Project
   title: The Principal Component of the Jets of a Graph
   term: Fall 2021
   date: 2021-09-01
 
 - name: J.S. Richard
-  course: MTH 358 Abstract Algebra (honors contract)
+  course: Abstract Algebra honors contract
   title: A Graphical Explanation of the Todd-Coxeter Algorithm
   term: Spring 2022
   date: 2022-01-01
 
 - name: M. Lysyj
-  course: MTH 696 Mathematics Exit Project
+  course: Graduate Exit Project
   title: The Four Color Theorem and Relations to Graph Theory
   term: Spring 2022
   date: 2022-01-01
 
-- name: S. Elfadil
-  course: USRA
+- name: S. Elfadil<br>G. Peto
+  course: Undergraduate Summer Research Award
   title: Finite group actions on free resolutions
   term: Summer 2023
   date: 2023-05-22
 
-- name: G. Peto
-  course: USRA
-  title: Finite group actions on free resolutions
-  term: Summer 2023
-  date: 2023-05-22
-
+- name: T. Vidmar
+  course: Senior Project
+  title: Applications of Linear Algebra to Graph Theory
+  term: Fall 2023
+  date: 2023-08-28
