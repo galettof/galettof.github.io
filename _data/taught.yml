@@ -1,6 +1,10 @@
 # enclose values in '' when ending in 0 or containing :
 csu:
 
+- title: CIS 492/593 - Special Topics in Quantum Computing
+  file: CSU-CIS492.pdf
+  date: 2023-08-28
+
 - title: MTH 458 - Abstract Algebra II
   file: CSU-MTH458.pdf
   date: 2023-01-01
