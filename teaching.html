@@ -30,8 +30,8 @@ active: teaching
 
     <section id="mentoring">
       <div class="card">
-	<div class="card-header">
-	  <h5 class="mb-0">Students mentored</h5>
+	<div class="card-header" data-toggle="collapse" href="#collapseMentored" role="button" aria-expanded="false" aria-controls="collapseMentored">
+	  <h5 class="mb-0">Students mentored <span class="text-muted">(click to expand)</span></h5>
 	</div>
 	<table class="table notop table-sm mb-0">
 	  <tbody>
@@ -41,9 +41,18 @@ active: teaching
 	      <td style="width:40%"><span class="font-weight-bold">Project title</span></td>
 	      <td style="width:15%"><span class="font-weight-bold">Term</span></td>
 	    </tr>
-	    {% assign mentees = site.data.mentoring.csu | sort: 'date' | reverse %}
-	    {% for item in mentees %}
+	    {% assign mentees_top = site.data.mentoring.csu | sort: 'date' | reverse | slice: 0, 5 %}
+	    {% for item in mentees_top %}
 	    <tr>
+	      <td>{{ item.name }}</td>
+	      <td>{{ item.course }}</td>
+	      <td>{{ item.title }}</td>
+	      <td>{{ item.term }}</td>
+	    </tr>
+	    {% endfor %}
+	    {% assign mentees_btm = site.data.mentoring.csu | sort: 'date' | reverse | slice: 5, 9999 %}
+	    {% for item in mentees_btm %}
+	    <tr class="collapse" id="collapseMentored">
 	      <td>{{ item.name }}</td>
 	      <td>{{ item.course }}</td>
 	      <td>{{ item.title }}</td>
