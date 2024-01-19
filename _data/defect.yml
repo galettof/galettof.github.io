@@ -127,7 +127,9 @@ articles:
 
 - authors: I. B. Jafarloo and G. Malara
   title: Regularity and symbolic defect of points on rational normal curves
+  link: https://doi.org/10.1007/s10998-023-00531-8
   arxiv: 2007.08612
+  cite: <i>Period. Math. Hung.</i>, 87(2):508--519, 2023
   date: 2020-07-16
 
 - authors: K.-N. Lin and Y.-H. Shen
@@ -144,5 +146,18 @@ articles:
 
 - authors: B. R. Oltsik
   title: Symbolic Defect of Monomial Ideals
-  arxiv: 2310.12280
+  arxiv: '2310.12280'
   date: 2023-10-18
+
+- authors: N. Taghipour, S. Bayati, and F. Rahmati
+  title: Comparison of symbolic and ordinary powers of parity binomial edge ideals
+  link: https://doi.org/10.1007/s00605-023-01912-4
+  arxiv: 2311.03155
+  cite: <i>Monatshefte für Mathematik</i>, pages 1--16, 2023
+  date: 2023-11-02
+
+- authors: R. Burity
+  title: On a-fold products ideals of hyperplane arrangements
+  link: https://doi.org/10.1016/j.bulsci.2023.103359
+  cite: <i>Bulletin des Sciences Mathématiques</i>, 189:103359, 2023
+  date: 2023-10-27
