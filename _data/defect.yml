@@ -148,3 +148,10 @@ articles:
   title: Symbolic Defect of Monomial Ideals
   arxiv: '2310.12280'
   date: 2023-10-18
+
+- authors: N. Taghipour, S. Bayati, and F. Rahmati
+  title: Comparison of symbolic and ordinary powers of parity binomial edge ideals
+  link: https://doi.org/10.1007/s00605-023-01912-4
+  arxiv: 2311.03155
+  cite: <i>Monatshefte für Mathematik</i>, pages 1--16, 2023
+  date: 2023-11-02
