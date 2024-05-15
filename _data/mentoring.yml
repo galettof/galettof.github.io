@@ -84,3 +84,21 @@ csu:
   title: Applications of Linear Algebra to Graph Theory
   term: Fall 2023
   date: 2023-08-28
+
+- name: D. Gerrity<br>J. Kropf<br>M.G. Johnson<br>J. Rockamore
+  course: Choose Ohio First Poster
+  title: The Multifaceted Applications of Elliptic Curves and their Relevance in Cryptography
+  term: Fall 2023
+  date: 2023-09-01
+
+- name: J. McKinney
+  course: Senior Project
+  title: Theory and Applications of the Smith Normal Form
+  term: Spring 2024
+  date: 2024-01-17
+
+- name: A. Gopani<br>R. Motta<br>G. Peto
+  course: Independent Study Course
+  title: Representation Theory of Finite Groups
+  term: Spring 2024
+  date: 2024-01-16
