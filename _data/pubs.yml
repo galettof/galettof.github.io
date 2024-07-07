@@ -73,6 +73,8 @@ articles:
 
 - title: The InvariantRing package for Macaulay2 (with L. Ferraro, F. Gandini, H. Huang, M. Mastroeni, and X. Ni)
   arxiv: 2010.15331
+  link: 'https://doi.org/10.2140/jsag.2024.14.5'
+  cite: J. Softw. Algebra Geom., 14(1):5--11, 2024
   date: 2020-10-29
 
 - title: Jet Graphs (with E. Helmick and M. Walsh)
