@@ -103,7 +103,7 @@ active: research
 	</div>
 	<table class="table notop table-sm mb-0">
 	  <tbody>
-	    {% assign talklist = site.data.talks.talks | sort: 'date' | reverse %}
+	    {% assign talklist = site.data.slides.talks | sort: 'date' | reverse %}
 	    {% for item in talklist %}
 	    <tr>
 	      <td><a href="files/talks/{{ item.file }}">
