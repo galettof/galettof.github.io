@@ -34,19 +34,14 @@ active: teaching
 	</div>
 	<table class="table notop table-sm mb-0">
 	  <tbody>
-	    <tr>
-	      <td style="width:15%"><span class="font-weight-bold">Name</span></td>
-	      <td><span class="font-weight-bold">Project</span></td>
-	      <!--<td style="width:40%"><span class="font-weight-bold">Project title</span></td>-->
-	      <td style="width:15%"><span class="font-weight-bold">Term</span></td>
-	    </tr>
-	    {% assign mentees = site.data.mentoring.csu | sort: 'date' | reverse %}
+	    {% assign mentees = site.data.mentoring | sort: 'date' | reverse %}
 	    {% for item in mentees %}
 	    <tr>
-	      <td>{{ item.name }}</td>
-	      <td>{{ item.title }} <span class="text-muted">({{ item.course }})</span></td>
-	      <!--<td>{{ item.title }}</td>-->
-	      <td>{{ item.term }}</td>
+	      <td style="width:15%">{{ item.term }}</td>
+	      <td>
+		{{ item.students }} <span class="text-muted">({{ item.project }})</span>
+		<br><i>{{ item.title }}</i>
+	      </td>
 	    </tr>
 	    {% endfor %}
 	  </tbody>

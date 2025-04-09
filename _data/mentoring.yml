@@ -1,124 +1,121 @@
-# enclose values in '' when ending in 0 or containing :
-csu:
+# sorted manually, most recent at the top
 
-- name: A. Ellis
-  course: Senior Project
-  title: Conics
-  term: Spring 2019
-  date: 2019-01-01
-
-- name: E. Helmick<br>M. Walsh
-  course: Undergraduate Summer Research Award
-  title: Jets of graphs
-  term: Summer 2020
-  date: 2020-06-01
-
-- name: C. Hyer<br>N. Iammarino
-  course: Independent Study Course
-  title: Projective Geometry
-  term: Fall 2020
-  date: 2020-09-01
-
-- name: K. Sammon
-  course: Real Analysis honors contract
-  title: Proofs of the root and ratio tests
-  term: Spring 2021
-  date: 2021-01-01
-
-- name: N. Nunez
-  course: Senior Project
-  title: Models of Hyperbolic Geometry
-  term: Spring 2021
-  date: 2021-01-01
-
-- name: N. Benedict
-  course: Senior Project
-  title: Elliptic Curve Cryptography
-  term: Spring 2021
-  date: 2021-01-01
-
-- name: C. Hyer
-  course: Graduate Exit Project
-  title: Tropical Geometry
-  term: Spring 2021
-  date: 2021-01-01
-
-- name: N. Iammarino
-  course: Research Assistant
-  title: Macaulay2 Jets package
-  term: Spring 2021
-  date: 2021-01-01
-
-- name: C. Scott
-  course: Senior Project
-  title: A Mathematical Approach to Digital Signature Schemes
-  term: Fall 2021
-  date: 2021-09-01
-
-- name: N. Iammarino
-  course: Graduate Exit Project
-  title: The Principal Component of the Jets of a Graph
-  term: Fall 2021
-  date: 2021-09-01
-
-- name: J.S. Richard
-  course: Abstract Algebra honors contract
-  title: A Graphical Explanation of the Todd-Coxeter Algorithm
-  term: Spring 2022
-  date: 2022-01-01
-
-- name: M. Lysyj
-  course: Graduate Exit Project
-  title: The Four Color Theorem and Relations to Graph Theory
-  term: Spring 2022
-  date: 2022-01-01
-
-- name: S. Elfadil<br>G. Peto
-  course: Undergraduate Summer Research Award
-  title: Finite group actions on free resolutions
-  term: Summer 2023
-  date: 2023-05-22
-
-- name: T. Vidmar
-  course: Senior Project
-  title: Applications of Linear Algebra to Graph Theory
-  term: Fall 2023
-  date: 2023-08-28
-
-- name: D. Gerrity<br>J. Kropf<br>M.G. Johnson<br>J. Rockamore
-  course: Choose Ohio First Poster
-  title: The Multifaceted Applications of Elliptic Curves and their Relevance in Cryptography
-  term: Fall 2023
-  date: 2023-09-01
-
-- name: J. McKinney
-  course: Senior Project
-  title: Theory and Applications of the Smith Normal Form
-  term: Spring 2024
-  date: 2024-01-17
-
-- name: A. Gopani<br>R. Motta<br>G. Peto
-  course: Independent Study Course
-  title: Representation Theory of Finite Groups
-  term: Spring 2024
-  date: 2024-01-16
-
-- name: D. Hardin
-  course: Senior Project
+- term: 2024 Fall
+  students: D. Hardin
+  project: Senior Project
   title: 'Securing Distributed Systems: The Role of Elliptic Curves in Blockchain Technology'
-  term: Fall 2024
   date: 2024-12-12
 
-- name: G. Peto
-  course: Senior Project
-  title: Combinatorial Methods for Ascertaining Algebraic Invariants of Stanley-Reisner Ideals
-  term: Fall 2024
+- term: 2024 Fall
+  students: G. Peto
+  project: Senior Project
+  title: 'Combinatorial Methods for Ascertaining Algebraic Invariants of Stanley-Reisner Ideals'
   date: 2024-12-05
 
-- name: G. Peto
-  course: Research Assistant
+- term: 2024 Fall
+  students: G. Peto
+  project: Research Assistant
   title: Free resolutions of symmetric ideals
-  term: Fall 2024
   date: 2024-11-21
 
+- term: 2024 Spring
+  students: J. McKinney
+  project: Senior Project
+  title: Theory and Applications of the Smith Normal Form
+  date: 2024-01-17
 
+- term: 2024 Spring
+  students: A. Gopani, R. Motta, G. Peto
+  project: Independent Study
+  title: Representation Theory of Finite Groups
+  date: 2024-01-16
+
+- term: 2023 Fall
+  students: T. Vidmar
+  project: Senior Project
+  title: Applications of Linear Algebra to Graph Theory
+  date: 2023-08-28
+
+- term: 2023 Fall
+  students: D. Gerrity, J. Kropf, M.G. Johnson, J. Rockamore
+  project: Choose Ohio First Poster
+  title: The Multifaceted Applications of Elliptic Curves and their Relevance in Cryptography
+  date: 2023-09-01
+
+- term: 2023 Summer
+  students: S. Elfadil, G. Peto
+  project: Undergraduate Summer Research Award
+  title: Finite Group Actions on Free Resolutions
+  date: 2023-05-22
+
+- term: 2022 Spring
+  students: J.S. Richard
+  project: Honors Project
+  title: 'A Graphical Explanation of the Todd-Coxeter Algorithm'
+  date: 2022-01-01
+
+- term: 2022 Spring
+  students: M. Lysyj
+  project: Graduate Exit Project
+  title: The Four Color Theorem
+  date: 2022-01-02
+
+- term: 2021 Fall
+  students: C. Scott
+  project: Senior Project
+  title: A Mathematical Approach To Digital Signature Schemes
+  date: 2021-09-01
+
+- term: 2021 Fall
+  students: N. Iammarino
+  project: Graduate Exit Project
+  title: The Principal Component of the Jets of a Graph
+  date: 2021-09-02
+
+- term: 2021 Spring
+  students: N. Iammarino
+  project: Research Assistant
+  title: Macaulay2 Jets package
+  date: 2021-01-01
+
+- term: 2021 Spring
+  students: K. Sammon
+  project: Honors Project
+  title: Proofs of the root and ratio tests
+  date: 2021-01-01
+
+- term: 2021 Spring
+  students: N. Benedict
+  project: Senior Project
+  title: Elliptic Curves Cryptography
+  date: 2021-01-02
+
+- term: 2021 Spring
+  students: N. Nunez
+  project: Senior Project
+  title: The Poincaré Model of Hyperbolic Geometry
+  date: 2021-01-02
+
+- term: 2021 Spring
+  students: C. Hyer
+  project: Graduate Exit Project
+  title: Tropical Geometry
+  date: 2021-01-01
+
+- term: 2020 Fall
+  students: C. Hyer, N. Iammarino
+  project: Independent Study
+  title: Projective Geometry
+  date: 2020-09-01
+
+- term: 2020 Summer
+  students: E. Helmick, M. Walsh
+  project: Undergraduate Summer Research Award
+  title: Jets of Graphs
+  date: 2020-06-01
+
+- term: 2019 Spring
+  students: A. Ellis
+  project: Senior Project
+  title: Conics
+  date: 2019-01-01
