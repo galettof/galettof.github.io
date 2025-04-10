@@ -1,1 +1,4 @@
 exclude: ['bio2.html', 'appt']
+
+plugins:
+  - jekyll-last-modified-at

@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "Noto Sans";
+    font-size: 0.8em;
+    line-height: 1.2;
+    background: #fcfcfc;
+}
+
+small {
+    font-size: 0.75em;
+}
+
+.divider {
+    margin: 2rem 0;
+    position: relative;
+    scroll-margin-top: 50px; /* added for links */
+}
+
+/* Simple Line with Text */
+.divider-text {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.divider-text::before,
+.divider-text::after {
+    content: "";
+    flex: 1;
+    border-top: 1px solid #d2d2d2;
+}
+
+.divider-text span {
+    padding: 0 2rem;
+}
+
+/* menu border color */
+.list-group {
+    --bs-list-group-border-color: #d2d2d2;
+}
+
+/* links take you above target */
+.card {
+    scroll-margin-top: 50px;
+}
+
+.row {
+    scroll-margin-top: 50px;
+}
+
+/*space at the top*/
+.top-space {
+    margin-top: 3rem;
+}
+
+/* page breaks */
+@media print {
+    .top-page {
+	break-before: page;
+	margin-top: 0px;
+    }
+    .top-space {
+	margin-top: 0rem;
+    }
+}
+
+/* make menu smaller */
+@media only screen and (max-height: 720px) {
+  .cv-menu-item {
+      height: 20px;
+  }
+}
+
+/* make menu disappear */
+@media only screen and (max-height: 590px) {
+  .cv-menu {
+      display: none !important;
+  }
+}
