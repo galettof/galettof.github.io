@@ -6,7 +6,7 @@ preprints:
 - authors: F. Galetto, N. Iammarino and T. Yu
   title: Jets and principal components of monomial ideals, and very well-covered graphs
   arxiv: 2407.01836
-  cite: arXiv:2407.01836
+  # cite: arXiv:2407.01836 FIX IN cv.html
   date: 2024-07-01
 
 refereed:
