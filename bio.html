@@ -84,7 +84,8 @@ active: bio
       </div>
       <table class="table notop table-sm mb-0">
 	<tbody>
-	  <tr><td><a href="files/CV.pdf">Full CV</a> (updated September 2024)</td>
+	  {% assign cv = site.pages | where: "path", "cv/index.html" | first %}
+	  <tr><td><a href="files/CV.pdf">Full CV</a> (updated {{ cv.last_modified_at | date: "%B %e, %Y" }})</td>
 	  </tr>
 	</tbody>
       </table>
