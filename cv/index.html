@@ -551,6 +551,27 @@ date: 2025-04-10
 		</div>
 	      </div>
 
+	      <div class="col top-page">
+		<div class="card" id="referee">
+		  <div class="card-body p-1">
+		    <h5 class="card-title">Journal Referee</h5>
+		    <table class="table table-sm table-striped table-borderless m-0">
+		      <tbody>
+			{% assign journals = site.data.service.referee | sort_natural: 'journal' %}
+			{% for item in journals %}
+			<tr>
+			  <td>
+			    {{ item.journal }}
+			    {% if item.times > 1 %} (x{{ item.times }}){% endif %}
+			  </td>
+			</tr>
+			{% endfor %}
+		      </tbody>
+		    </table>
+		  </div>
+		</div>
+	      </div>
+
 	    </div><!-- closing div -->
 	    
 
