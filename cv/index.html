@@ -572,6 +572,44 @@ date: 2025-04-10
 		</div>
 	      </div>
 
+
+	      <div class="col">
+		<div class="card" id="affiliations">
+		  <div class="card-body p-1">
+		    <h5 class="card-title">Affiliations</h5>
+		    <table class="table table-sm table-striped table-borderless m-0">
+		      <tbody>
+			<tr>
+			  <td style="width: 15%;">2015 - present</td>
+			  <td>Member of the American Mathematical Society</td>
+			</tr>
+			<tr>
+			  <td>2021 - 2024</td>
+			  <td>Member of the Mathematical Association of America</td>
+			</tr>
+		      </tbody>
+		    </table>
+		  </div>
+		</div>
+	      </div>
+
+	      <div class="col pb-5">
+		<div class="card" id="development">
+		  <div class="card-body p-1">
+		    <h5 class="card-title">Professional Development</h5>
+		    <table class="table table-sm table-striped table-borderless m-0">
+		      {% assign workshops = site.data.service.development | sort: 'year' | reverse %}
+		      {% for item in workshops %}
+		      <tr>
+			<td style="width: 6%;">{{ item.year }}</td>
+			<td>{{ item.name }}</td>
+		      </tr>
+		      {% endfor %}
+		    </table>
+		  </div>
+		</div>
+	      </div>
+
 	    </div><!-- closing div -->
 	    
 
