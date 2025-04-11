@@ -1,0 +1,192 @@
+external:
+# partially sorted automatically by period
+# within same period, put more recent items closer to the top
+
+- name: Proposal reviewer for the Office of Research at the University of Wisconsin-Milwaukee
+  period: 2025
+
+- name: Séminaire de Mathématique Supérieures, An Introduction to Recent Trends in Commutative Algebra (organizer with S. Da Silva, E. Guardo, M. Harada, J. Rajchgot, P. Klein, and A. Van Tuyl)
+  period: 2025
+
+- name: Judge for Choose Ohio First Research Presentations at Case Western Reserve University
+  period: 2024
+
+- name: Science Olympiad Northeast Ohio Volunteer
+  period: 2023 - 2024
+
+- name: Judge for AWM Graduate Student Poster Session at JMM
+  period: 2023
+
+- name: Macaulay2 Conference at Cleveland State University (organizer with C. Gibbons, H. Lopez, and B. Stone)
+  period: 2022
+
+- name: Special Session on Hyperplane arrangements in connection with commutative algebra at the 2021 AMS Fall Western Sectional Meeting (organizer with K.-N. Lin)
+  period: 2021
+
+- name: Michigan Research Experience for Graduates (project leader with F. Gandini)
+  period: 2021
+
+- name: Virtual Macaulay2 Workshop at Cleveland State University (organizer with C. Gibbons, H. Lopez, and B. Stone)
+  period: 2020
+
+- name: Reviewer for AMS Mathematical Reviews (x3)
+  period: 2019 - 2021
+
+- name: Scientific Session on Recent Advances in Commutative Algebra at the 2016 CMS Winter Meeting in Niagara Falls, ON (organizer with S. Faridi and A. Van Tuyl)
+  period: 2016
+
+
+csu:
+# sorted automatically by level first (lower at the top)
+# sorted automatically by period within each level
+
+- name: Nominating Committee
+  unit: College of Arts and Sciences
+  period: 2022 - 2024
+  level: 1
+
+- name: Nominating Committee
+  unit: College of Science and Health Professions
+  period: 2021 - 2022
+  level: 1
+
+- name: Undergraduate Program Committee
+  unit: Department of Mathematics and Statistics
+  period: 2020 - 2022
+  level: 2
+
+- name: Graduate Program Committe
+  unit: Department of Mathematics and Statistics
+  period: 2022 - 2024<br>2018 - 2020
+  level: 2
+
+- name: Search Committee - Tenure Track
+  unit: Department of Mathematics and Statistics
+  period: 2021 - 2023
+  level: 2
+
+- name: Search Committee - Lecturer
+  unit: Department of Mathematics and Statistics
+  period: 2018 - 2022
+  level: 2
+
+- name: Chair Search Advisory Committee
+  unit: Department of Mathematics and Statistics
+  period: 2021
+  level: 2
+
+- name: Undergraduate Assessment Committee
+  unit: Department of Mathematics and Statistics
+  period: 2019 - 2023
+  level: 2
+
+- name: Topology/Algebra/Geometry Seminar Organizer
+  unit: Department of Mathematics and Statistics 
+  period: 2020 - 2023
+  level: 2
+
+- name: Freshman-Sophomore Mathematics Competition
+  unit: Department of Mathematics and Statistics
+  period: 2019 - 2023
+  level: 2
+
+- name: LGBTQ+ Advisory Team
+  unit:	Student Services
+  period: 2020 - 2022
+  level: 3
+
+
+referee:
+# sorted alphabetically by journal name
+
+- journal: Algebra & Number Theory
+  times: 1
+
+- journal: Communications in Algebra
+  times: 3
+
+- journal: Contemporary Mathematics
+  times: 1
+
+- journal: CUBO
+  times: 1
+
+- journal: Journal of Algebra and its Applications
+  times: 3
+
+- journal: Journal of Algebraic Combinatorics
+  times: 1
+
+- journal: Journal of Commutative Algebra
+  times: 2
+
+- journal: Journal of Pure & Applied Algebra
+  times: 2
+
+- journal: Journal of Software for Algebra and Geometry
+  times: 2
+
+- journal: Journal of Symbolic Computation
+  times: 2
+
+- journal: La Matematica
+  times: 1
+
+- journal: Proceedings of the American Mathematical Society
+  times: 1
+
+- journal: Rendiconti Matematici del Circolo di Palermo
+  times: 1
+
+- journal: Rocky Mountain Journal of Mathematics
+  times: 2
+
+- journal: The Electronic Journal of Combinatorics
+  times: 1
+
+
+
+development:
+# sorted automatically by year
+
+- year: 2013
+  name: Positive Space Program, Queen's University
+
+- year: 2017
+  name: Human rights, Equity, Accessibility, Respect Toolkit Workshop Series, McMaster University
+
+- year: 2019
+  name: Safe Space Program, Cleveland State University
+
+- year: 2020
+  name: LockDown Browser & Respondus Monitor Training
+
+- year: 2020
+  name: 'REMOTE: The Connected Faculty Summit'
+
+- year: 2020
+  name: Faculty Online Teaching and Design Course, Center for eLearning, Cleveland State University
+
+- year: 2020
+  name: 'AMS Webinars, Teaching Math Online: Theory Into Practice'
+
+- year: 2020
+  name: Write Winning Grant Proposals Seminar
+
+- year: 2021
+  name: MAA Project NExT, Gold 21 Cohort
+
+- year: 2023
+  name: 'The Diversity Institute workshops: Allyship and Solidarity Across Identities'
+
+- year: 2023
+  name: 'The Diversity Institute workshops: Leveraging Difference'
+
+- year: 2023
+  name: 'The Diversity Institute workshops: Power, Privilege and Society'
+
+- year: 2023
+  name: 'The Diversity Institute workshops: Bias in Action'
+
+- year: 2023
+  name: 'The Diversity Institute workshops: Disability & Ableism'

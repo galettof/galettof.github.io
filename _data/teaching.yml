@@ -1,0 +1,279 @@
+# sorted manually, most recent at the top
+
+csu:
+
+- term: 2024 Fall
+  course: MTH 182
+  title: Calculus II
+  enrolled: 42
+
+- term: 2024 Fall
+  course: MTH 182
+  title: Calculus II
+  enrolled: 40
+
+- term: 2024 Fall
+  course: EEC 492/592
+  title: Quantum Information Science
+  enrolled: 17
+
+- term: 2024 Spring
+  course: MTH 182
+  title: Calculus II
+  enrolled: 30
+
+- term: 2024 Spring
+  course: MTH 220
+  title: Introduction to Discrete Mathematics
+  enrolled: 34
+
+- term: 2023 Fall
+  course: MTH 220
+  title: Introduction to Discrete Mathematics
+  enrolled: 26
+
+- term: 2023 Fall
+  course: MTH 301
+  title: Introduction to Number Theory
+  enrolled: 15
+
+- term: 2023 Fall
+  course: CIS 492/593
+  title: Quantum Computing
+  enrolled: 10
+
+- term: 2023 Spring
+  course: MTH 288
+  title: Linear Algebra
+  enrolled: 30
+
+- term: 2023 Spring
+  course: MTH 458
+  title: Abstract Algebra II
+  enrolled: 6
+
+- term: 2022 Fall
+  course: MTH 220
+  title: Introduction to Discrete Mathematics
+  enrolled: 26
+
+- term: 2022 Fall
+  course: MTH 358
+  title: Abstract Algebra
+  enrolled: 13
+
+- term: 2022 Spring
+  course: MTH 482/582
+  title: Topics in Number Theory
+  enrolled: 9
+
+- term: 2022 Spring
+  course: MTH 358
+  title: Abstract Algebra
+  enrolled: 24
+
+- term: 2021 Fall
+  course: MTH 434/534
+  title: Differential Geometry
+  enrolled: 9
+
+- term: 2021 Fall
+  course: MTH 301
+  title: Introduction to Number Theory
+  enrolled: 15
+
+- term: 2021 Spring
+  course: MTH 415/515
+  title: Real Analysis
+  enrolled: 36
+
+- term: 2021 Spring
+  course: MTH 220
+  title: Introduction to Discrete Mathematics
+  enrolled: 34
+
+- term: 2020 Fall
+  course: MTH 301
+  title: Introduction to Number Theory
+  enrolled: 30
+
+- term: 2020 Fall
+  course: MTH 220
+  title: Introduction to Discrete Mathematics
+  enrolled: 30
+
+- term: 2020 Spring
+  course: MTH 493/593
+  title: Computational Commutative Algebra
+  enrolled: 16
+
+- term: 2020 Spring
+  course: MTH 220
+  title: Introduction to Discrete Mathematics
+  enrolled: 34
+
+- term: 2019 Fall
+  course: MTH 358
+  title: Abstract Algebra
+  enrolled: 13
+
+- term: 2019 Fall
+  course: MTH 220
+  title: Introduction to Discrete Mathematics
+  enrolled: 35
+
+- term: 2019 Spring
+  course: MTH 482/582
+  title: Topics in Number Theory
+  enrolled: 13
+
+- term: 2019 Spring
+  course: MTH 220
+  title: Introduction to Discrete Mathematics
+  enrolled: 34
+
+- term: 2018 Fall
+  course: MTH 333
+  title: Geometry
+  enrolled: 25
+
+- term: 2018 Fall
+  course: MTH 514
+  title: Linear Algebra/Functions of Several Variables
+  enrolled: 11
+
+mcmaster:
+
+- term: 2018 Winter
+  course: MATH 3V03
+  title: Graph Theory
+  enrolled: 48
+
+- term: 2018 Winter
+  course: MATH 1AA3
+  title: Calculus for Science II (joint with 1ZB3)
+  enrolled: 55
+
+- term: 2018 Winter
+  course: MATH 1ZB3
+  title: Engineering Mathematics II-A
+  enrolled: 82
+
+- term: 2017 Fall
+  course: MATH 3B03
+  title: Geometry
+  enrolled: 26
+
+- term: 2017 Summer
+  course: MATH 2R03
+  title: Linear Algebra II
+  enrolled: 46
+
+- term: 2017 Winter
+  course: MATH 702
+  title: Algebra II (graduate)
+  enrolled: 10
+
+- term: 2016 Summer
+  course: MATH 2R03
+  title: Linear Algebra II
+  enrolled: 55
+
+- term: 2015 Fall
+  course: MATH 1A03
+  title: Calculus for Science I
+  enrolled: 206
+
+queens:
+
+- term: 2015 Winter
+  course: MATH 281
+  title: Introduction to Real Analysis
+  enrolled: 110
+
+- term: 2015 Winter
+  course: APSC 171-900
+  title: Calculus I
+  enrolled: 63
+
+- term: 2014 Winter
+  course: MATH 281
+  title: Introduction to Real Analysis
+  enrolled: 108
+
+- term: 2013 Fall
+  course: APSC 171
+  title: Calculus I
+  enrolled: 233
+
+neu:
+
+- term: 2013 Spring
+  course: MATH 1215
+  title: Mathematical Thinking
+  enrolled: 38
+
+- term: 2012 Fall
+  course: MATH 1215
+  title: Mathematical Thinking
+  enrolled: 23
+
+- term: 2012 Spring
+  course: MATH 1215
+  title: Mathematical Thinking
+  enrolled: 32
+
+- term: 2011 Fall
+  course: MATH 1215
+  title: Mathematical Thinking
+  enrolled: 47
+
+- term: 2011 Summer II
+  course: MATH 1215
+  title: Mathematical Thinking
+  enrolled: 23
+
+- term: 2010 Fall
+  course: MATH 1341
+  title: Calculus I for Sci/Engr
+  enrolled: 20
+
+- term: 2010 Summer I
+  course: MATH 1215
+  title: Mathematical Thinking
+  enrolled: 15
+
+- term: 2010 Spring
+  course: MATH 1341
+  title: Calculus I for Sci/Engr
+  enrolled: 21
+
+- term: 2009 Fall
+  course: MATH 1341
+  title: Calculus I for Sci/Engr
+  enrolled: 30
+
+- term: 2009 Spring
+  course: MTH U241
+  title: Calculus I for Sci/Engr
+  enrolled: 28
+
+- term: 2008 Fall
+  course: MTH U241
+  title: Calculus I for Sci/Engr
+  enrolled: 25
+
+- term: 2008 Summer I
+  course: MTH U131
+  title: Calculus for Business and Economics
+  enrolled: 23
+
+- term: 2008 Spring
+  course: MTH U241
+  title: Calculus I for Sci/Engr
+  enrolled: 28
+
+- term: 2007 Fall
+  course: MTH U341
+  title: Calculus III for Sci/Engr (Recitations)
+  enrolled: N/A

@@ -24,10 +24,17 @@ active: research
 	</div>
 	<table class="table notop table-sm mb-0">
 	  <tbody>
-	    {% assign artlist = site.data.pubs.articles | sort: 'date' | reverse %}
-	    {% for item in artlist %}
+	    <!-- join preprints and articles, then sort by date -->
+	    {% assign publist = site.data.publications.refereed | concat: site.data.publications.preprints | sort: 'date' | reverse %}
+	    {% for item in publist %}
+	    
 	    <tr><td>{{ forloop.rindex }}.</td>
-	      <td>{{ item.title }}<br>
+	      <td>{{ item.title }}
+		<!-- extract coauthors, assuming I'm not last author -->
+		{% unless item.authors == "F. Galetto" %}
+		 (with {{ item.authors | remove: "F. Galetto, " | remove: "F. Galetto and " }})
+		{% endunless %}
+		<br>
 		{% if item.cite %}
 		<a href="{{ item.link }}" target="_blank">{{ item.cite }}</a>
 		{% if item.arxiv %}
@@ -103,7 +110,7 @@ active: research
 	</div>
 	<table class="table notop table-sm mb-0">
 	  <tbody>
-	    {% assign talklist = site.data.talks.talks | sort: 'date' | reverse %}
+	    {% assign talklist = site.data.slides.talks | sort: 'date' | reverse %}
 	    {% for item in talklist %}
 	    <tr>
 	      <td><a href="files/talks/{{ item.file }}">

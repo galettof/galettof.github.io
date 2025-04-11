@@ -1,0 +1,77 @@
+# enclose values in '' when ending in 0 or containing :
+talks:
+
+- title: An introduction to Hodge algebras
+  place: Tapas Seminar 2009, Northeastern University
+  file: 2009iha.pdf
+  date: 2009-05-28
+
+- title: Grassmannians and cluster algebras
+  place: Topics in representation theory 2009, Northeastern University
+  file: 2009gca.pdf
+  date: 2009-12-16
+
+- title: Generalized Tanisaki ideals and the cohomology of Hessenberg varieties
+  place: Graduate Student Seminar 2011, Northeastern University
+  file: 2011gtichv.pdf
+  date: 2011-02-11
+
+- title: Risoluzioni libere di ideali determinantali
+  place: Welcome Home Workshop 2011, Universit&agrave; degli Studi di Torino
+  file: 2011rlid.pdf
+  date: 2011-12-21
+
+- title: Algorithms for irreducible decomposition of monomial ideals
+  place: Graduate Student Seminar 2012, Northeastern University
+  file: 2012aidmi.pdf
+  date: 2012-02-28
+
+- title: Free resolutions and representations with finitely many orbits
+  place: Algebraic Geometry Seminar 2013, Queen's University
+  file: 2013frrfmo.pdf
+  date: 2013-09-09
+
+- title: An algorithm for determining actions of semisimple Lie groups on free resolutions
+  place: Combinatorial Algebra meets Algebraic Combinatorics 2014, Dalhousie University
+  file: 2014adaslgfr.pdf
+  date: 2014-01-24
+
+- title: Equivariant resolutions of De Concini-Procesi ideals
+  place: Joint Mathematics Meetings 2015, San Antonio, TX
+  file: 2015erdcpi.pdf
+  date: 2015-01-13
+
+- title: Symmetric complete intersections
+  place: AMS Spring Southeastern Sectional Meeting 2016, University of Georgia, Athens
+  file: 2016sci.pdf
+  date: 2016-03-06
+
+- title: Towards Newton-Okounkov bodies of Hessenberg varieties
+  place: AMS Spring Western Sectional Meeting 2017, Washington State University, Pullman
+  file: 2017tnobhv.pdf
+  date: 2017-04-22
+
+- title: Distinguishing k-configurations
+  place: Mathematics Colloquium 2017, Dalhousie University
+  file: 2017dkc.pdf
+  date: 2017-10-19
+
+- title: The symbolic defect of an ideal
+  place: AMS Spring Central Sectional Meeting 2018, Ohio State University, Columbus
+  file: 2018sdi.pdf
+  date: 2018-03-17
+
+- title: Symmetric shifted ideals
+  place: Combinatorial Algebra meets Algebraic Combinatorics 2020, Dalhousie University
+  file: 2020ssi.pdf
+  date: 2020-01-25
+
+- title: Jets of graphs
+  place: Department of Mathematics and Statistics Colloquium 2021, James Madison University
+  file: 2021jg.pdf
+  date: 2021-04-05
+
+- title: Finite group actions on free resolutions
+  place: AMS Spring Eastern Sectional Meeting 2022 (formerly at Tufts University)
+  file: 2022fgafr.pdf
+  date: 2022-03-20

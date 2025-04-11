@@ -1,1 +1,4 @@
-exclude: ['index.html.bak', 'bio2.html', 'css/custom.css.bak']
+exclude: ['bio2.html', 'appt']
+
+plugins:
+  - jekyll-last-modified-at
