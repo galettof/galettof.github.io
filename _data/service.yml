@@ -36,63 +36,52 @@ external:
 
 
 csu:
-# sorted automatically by level first (lower at the top)
-# sorted automatically by period within each level
+# sorted manually, most recent at the top
+# group by unit
 
 - name: Nominating Committee
   unit: College of Arts and Sciences
   period: '2022 - 2024'
-  level: 1
 
 - name: Nominating Committee
   unit: College of Science and Health Professions
   period: '2021 - 2022'
-  level: 1
-
-- name: Undergraduate Program Committee
-  unit: Department of Mathematics and Statistics
-  period: '2020 - 2022'
-  level: 2
 
 - name: Graduate Program Committe
   unit: Department of Mathematics and Statistics
   period: '2022 - 2024<br>2018 - 2020'
-  level: 2
 
 - name: 'Search Committee - Tenure Track'
   unit: Department of Mathematics and Statistics
   period: '2021 - 2023'
-  level: 2
-
-- name: 'Search Committee - Lecturer'
-  unit: Department of Mathematics and Statistics
-  period: '2018 - 2022'
-  level: 2
 
 - name: Chair Search Advisory Committee
   unit: Department of Mathematics and Statistics
   period: 2021
-  level: 2
-
-- name: Undergraduate Assessment Committee
-  unit: Department of Mathematics and Statistics
-  period: '2019 - 2023'
-  level: 2
 
 - name: Topology/Algebra/Geometry Seminar Organizer
   unit: Department of Mathematics and Statistics 
   period: '2020 - 2023'
-  level: 2
+
+- name: Undergraduate Program Committee
+  unit: Department of Mathematics and Statistics
+  period: '2020 - 2022'
+
+- name: Undergraduate Assessment Committee
+  unit: Department of Mathematics and Statistics
+  period: '2019 - 2023'
 
 - name: 'Freshman-Sophomore Mathematics Competition'
   unit: Department of Mathematics and Statistics
   period: '2019 - 2023'
-  level: 2
+
+- name: 'Search Committee - Lecturer'
+  unit: Department of Mathematics and Statistics
+  period: '2018 - 2022'
 
 - name: LGBTQ+ Advisory Team
   unit:	Student Services
   period: '2020 - 2022'
-  level: 3
 
 
 referee:

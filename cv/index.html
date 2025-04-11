@@ -511,8 +511,7 @@ date: 2025-04-10
 			<th>Unit</th>
 		      </thead>
 		      <tbody>
-			{% assign committees = site.data.service.csu | sort: 'period' | reverse | sort: 'level' %}
-			{% for item in committees %}
+			{% for item in site.data.service.csu %}
 			<tr>
 			  <td>{{ item.period }}</td>
 			  <td>{{ item.name }}</td>
