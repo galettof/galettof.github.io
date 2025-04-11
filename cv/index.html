@@ -488,7 +488,7 @@ date: 2025-04-10
 		    <h5 class="card-title">Service to the Profession</h5>
 		    <table class="table table-sm table-striped table-borderless m-0">
 		      <tbody>
-			{% for item in roles %}
+			{% for item in site.data.service.external %}
 			<tr>
 			  <td style="width: 15%;">{{ item.period }}</td>
 			  <td>{{ item.name }}</td>
