@@ -12,7 +12,7 @@ external:
   period: 2024
 
 - name: Science Olympiad Northeast Ohio Volunteer
-  period: 2023 - 2024
+  period: '2023 - 2024'
 
 - name: Judge for AWM Graduate Student Poster Session at JMM
   period: 2023
@@ -20,7 +20,7 @@ external:
 - name: Macaulay2 Conference at Cleveland State University (organizer with C. Gibbons, H. Lopez, and B. Stone)
   period: 2022
 
-- name: Special Session on Hyperplane arrangements in connection with commutative algebra at the 2021 AMS Fall Western Sectional Meeting (organizer with K.-N. Lin)
+- name: 'Special Session on Hyperplane arrangements in connection with commutative algebra at the 2021 AMS Fall Western Sectional Meeting (organizer with K.-N. Lin)'
   period: 2021
 
 - name: Michigan Research Experience for Graduates (project leader with F. Gandini)
@@ -42,17 +42,17 @@ csu:
 
 - name: Nominating Committee
   unit: College of Arts and Sciences
-  period: 2022 - 2024
+  period: '2022 - 2024'
   level: 1
 
 - name: Nominating Committee
   unit: College of Science and Health Professions
-  period: 2021 - 2022
+  period: '2021 - 2022'
   level: 1
 
 - name: Undergraduate Program Committee
   unit: Department of Mathematics and Statistics
-  period: 2020 - 2022
+  period: '2020 - 2022'
   level: 2
 
 - name: Graduate Program Committe
@@ -60,14 +60,14 @@ csu:
   period: '2022 - 2024<br>2018 - 2020'
   level: 2
 
-- name: Search Committee - Tenure Track
+- name: 'Search Committee - Tenure Track'
   unit: Department of Mathematics and Statistics
-  period: 2021 - 2023
+  period: '2021 - 2023'
   level: 2
 
-- name: Search Committee - Lecturer
+- name: 'Search Committee - Lecturer'
   unit: Department of Mathematics and Statistics
-  period: 2018 - 2022
+  period: '2018 - 2022'
   level: 2
 
 - name: Chair Search Advisory Committee
@@ -77,22 +77,22 @@ csu:
 
 - name: Undergraduate Assessment Committee
   unit: Department of Mathematics and Statistics
-  period: 2019 - 2023
+  period: '2019 - 2023'
   level: 2
 
 - name: Topology/Algebra/Geometry Seminar Organizer
   unit: Department of Mathematics and Statistics 
-  period: 2020 - 2023
+  period: '2020 - 2023'
   level: 2
 
-- name: Freshman-Sophomore Mathematics Competition
+- name: 'Freshman-Sophomore Mathematics Competition'
   unit: Department of Mathematics and Statistics
-  period: 2019 - 2023
+  period: '2019 - 2023'
   level: 2
 
 - name: LGBTQ+ Advisory Team
   unit:	Student Services
-  period: 2020 - 2022
+  period: '2020 - 2022'
   level: 3
 
 
