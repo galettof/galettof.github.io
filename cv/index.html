@@ -470,7 +470,7 @@ date: 2025-04-10
 	    </div>
 
 
-
+<!--
 	    <div class="divider top-page" id="service">
               <div class="divider-text">
 		<span><h3>Service and Development</h3></span>
@@ -509,9 +509,8 @@ date: 2025-04-10
 			<th>Unit</th>
 		      </thead>
 		      <tbody>
-			{% assign committees = site.data.service.csu | sort: 'period' | reverse %}
-			{% assign sorted_committees = committees | sort 'level' %}
-			{% for item in sorted_committees %}
+			{% assign committees = site.data.service.csu | sort: 'period' | reverse | sort: 'level' %}
+			{% for item in committees %}
 			<tr>
 			  <td>{{ item.period }}</td>
 			  <td>{{ item.name }}</td>
@@ -611,6 +610,7 @@ date: 2025-04-10
 
 	    </div>
 
+	    -->
 	  </div>
 	</div>
 
