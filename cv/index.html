@@ -216,7 +216,7 @@ date: 2025-04-10
 		  <div class="card-body p-1">
 		    <h5>Refereed Articles</h5>
 		    <table class="table table-sm table-striped table-borderless m-0">
-		      {% assign artlist = site.data.publications.refereed | sort: "date" | reverse %}
+		      {% assign artlist = site.data.publications.refereed | sort: 'date' | reverse %}
 		      {% for item in artlist %}
 		      <tr>
 			<td style="width: 4%;">{{ forloop.rindex }}.</td>
