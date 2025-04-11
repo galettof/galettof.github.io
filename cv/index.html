@@ -1,6 +1,7 @@
 ---
 layout: none
 title: CV
+date: 2025-04-10
 ---
 
 <!DOCTYPE html>
@@ -555,7 +556,7 @@ title: CV
 		    <h5 class="card-title">Journal Referee</h5>
 		    <table class="table table-sm table-striped table-borderless m-0">
 		      <tbody>
-			{% assign journals = site.data.service.referee | sort_natural: 'journal' %}
+			{% assign journals = site.data.service.referee | sort: 'journal' %}
 			{% for item in journals %}
 			<tr>
 			  <td>
