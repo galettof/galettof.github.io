@@ -500,6 +500,58 @@ date: 2025-04-10
 		</div>
 	      </div>
 	      
+	      <div class="col">
+		<div class="card" id="service-csu">
+		  <div class="card-body p-1">
+		    <h5 class="card-title">Service at Cleveland State University</h5>
+		    <table class="table table-sm table-striped table-borderless m-0">
+		      <thead>
+			<th style="width: 15%;">Period</th>
+			<th style="width: 46%;">Committe</th>
+			<th>Unit</th>
+		      </thead>
+		      <tbody>
+			{% assign committees = site.data.service.csu | sort: 'period' | reverse | sort: 'level' %}
+			{% for item in committees %}
+			<tr>
+			  <td>{{ item.period }}</td>
+			  <td>{{ item.name }}</td>
+			  <td>{{ item.unit }}</td>
+			</tr>
+			{% endfor %}
+		      </tbody>
+		    </table>
+		  </div>
+		</div>
+	      </div>
+	      
+	      <div class="col">
+		<div class="card" id="service-neu">
+		  <div class="card-body p-1">
+		    <h5 class="card-title">Service at Northeastern University</h5>
+		    <table class="table table-sm table-striped table-borderless m-0">
+		      <thead>
+			<th style="width: 15%;">Period</th>
+			<th style="width: 46%;">Committe</th>
+			<th>Unit</th>
+		      </thead>
+		      <tbody>
+			<tr>
+			  <td>2012 - 2013</td>
+			  <td>Mathematics Graduate Student Association</td>
+			  <td>Department of Mathematics</td>
+			</tr>
+			<tr>
+			  <td>2012 - 2013</td>
+			  <td>Teaching Committee</td>
+			  <td>Department of Mathematics</td>
+			</tr>
+		      </tbody>
+		    </table>
+		  </div>
+		</div>
+	      </div>
+
 	    </div><!-- closing div -->
 	    
 
