@@ -474,6 +474,35 @@ date: 2025-04-10
 	    </div>
 
 
+	    <div class="divider top-page" id="service">
+              <div class="divider-text">
+		<span><h3>Service and Development</h3></span>
+              </div>
+	    </div>
+
+	    <div class="row row-cols-1 g-4">
+
+	      <div class="col">
+		<div class="card" id="profession">
+		  <div class="card-body p-1">
+		    <h5 class="card-title">Service to the Profession</h5>
+		    <table class="table table-sm table-striped table-borderless m-0">
+		      <tbody>
+			{% assign roles = site.data.service.external | sort: 'period' | reverse %}
+			{% for item in roles %}
+			<tr>
+			  <td style="width: 15%;">{{ item.period }}</td>
+			  <td>{{ item.name }}</td>
+			</tr>
+			{% endfor %}
+		      </tbody>
+		    </table>
+		  </div>
+		</div>
+	      </div>
+	      
+	    </div><!-- closing div -->
+	    
 
 	  </div>
 	</div>
