@@ -2,10 +2,10 @@ external:
 # partially sorted automatically by period
 # within same period, put more recent items closer to the top
 
-- name: Proposal reviewer for the Office of Research at the University of Wisconsin-Milwaukee
+- name: Séminaire de Mathématique Supérieures, An Introduction to Recent Trends in Commutative Algebra (organizer with S. Da Silva, E. Guardo, M. Harada, J. Rajchgot, P. Klein, and A. Van Tuyl)
   period: 2025
 
-- name: Séminaire de Mathématique Supérieures, An Introduction to Recent Trends in Commutative Algebra (organizer with S. Da Silva, E. Guardo, M. Harada, J. Rajchgot, P. Klein, and A. Van Tuyl)
+- name: Proposal reviewer for the Office of Research at the University of Wisconsin-Milwaukee
   period: 2025
 
 - name: Judge for Choose Ohio First Research Presentations at Case Western Reserve University
@@ -30,7 +30,7 @@ external:
   period: '2020'
 
 - name: Reviewer for AMS Mathematical Reviews (x3)
-  period: 2019 - 2021
+  period: '2019 - 2021'
 
 - name: Scientific Session on Recent Advances in Commutative Algebra at the 2016 CMS Winter Meeting in Niagara Falls, ON (organizer with S. Faridi and A. Van Tuyl)
   period: 2016
