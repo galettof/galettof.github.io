@@ -1,6 +1,5 @@
 external:
-# partially sorted automatically by period
-# within same period, put more recent items closer to the top
+# sorted manually, more recent items at the top
 
 - name: Séminaire de Mathématique Supérieures, An Introduction to Recent Trends in Commutative Algebra (organizer with S. Da Silva, E. Guardo, M. Harada, J. Rajchgot, P. Klein, and A. Van Tuyl)
   period: 2025
