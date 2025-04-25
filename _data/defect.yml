@@ -141,13 +141,17 @@ articles:
 
 - authors: P. Mantero, C. B. Miranda-Neto, U. Nagel
   title: A formula for symbolic powers
+  link: 'https://doi.org/10.1016/j.jalgebra.2024.05.053'
+  cite: <i>J. Algebra</i>, 658:1--21, 2024
   arxiv: 2112.12588
-  date: 2021-12-23
+  date: 2024-06-26
 
 - authors: B. R. Oltsik
   title: Symbolic Defect of Monomial Ideals
+  link: 'https://doi.org/10.1080/00927872.2024.2338215'
   arxiv: '2310.12280'
-  date: 2023-10-18
+  cite: <i>Commun. Algebra</i>, 52(9):3996--4012, 2024
+  date: 2024-04-13
 
 - authors: N. Taghipour, S. Bayati, and F. Rahmati
   title: Comparison of symbolic and ordinary powers of parity binomial edge ideals
@@ -166,4 +170,9 @@ articles:
   title: The Structure of Symbolic Powers of Matroids
   arxiv: 2406.13759
   date: 2024-06-19
-  
+
+- authors: I. Jahani and S. Bayati
+  title: Waldschmidt constant of some classes of hypergraphs
+  link: 'https://doi.org/10.22060/ajmc.2024.23561.1266'
+  cite: <i>AUT Journal of Mathematics and Computing</i>, 2024
+  date: 2024-10-14
