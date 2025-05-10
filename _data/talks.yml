@@ -5,6 +5,11 @@
   location: SIAM Conference on Applied Algebraic Geometry, Minisymposium on Algorithms & Implementations in Effective Algebraic Geometry, University of Wisconsin-Madison
   invited: true
 
+- date: 2025-05-09
+  title: Vietoris-Rips complexes of hypercubes and group actions
+  location: Algebraic Combinatorics Seminar, Fields Institute
+  invited: false
+
 - date: 2025-03-31
   title: Principal jets of monomial ideals
   location: Algebra and Geometry Seminar, Queen's University
