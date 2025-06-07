@@ -1,7 +1,10 @@
 external:
 # sorted manually, more recent items at the top
 
-- name: Séminaire de Mathématique Supérieures, An Introduction to Recent Trends in Commutative Algebra (organizer with S. Da Silva, E. Guardo, M. Harada, J. Rajchgot, P. Klein, and A. Van Tuyl)
+- name: Instructor of the mini-course on "Computational Methods in Commutative Algebra", Séminaire de Mathématique Supérieures, Fields Institute
+  period: 2025
+
+- name: "Séminaire de Mathématique Supérieures: An Introduction to Recent Trends in Commutative Algebra, Fields Institute (organizer with S. Da Silva, E. Guardo, M. Harada, J. Rajchgot, P. Klein, and A. Van Tuyl)"
   period: 2025
 
 - name: Proposal reviewer for the Office of Research at the University of Wisconsin-Milwaukee
