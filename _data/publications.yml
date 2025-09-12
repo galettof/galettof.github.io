@@ -1,12 +1,7 @@
 # enclose values in '' when ending in 0 or containing :
 # automatically sorted by date
 
-preprints:
-
-- authors: F. Galetto, N. Iammarino and T. Yu
-  title: Jets and principal components of monomial ideals, and very well-covered graphs
-  arxiv: 2407.01836
-  date: 2024-07-01
+preprints: []
 
 refereed:
 
@@ -140,3 +135,10 @@ refereed:
   cite: 'J. Supercomput., 80(10):14029-14056, 2024'
   link: 'https://doi.org/10.1007/s11227-024-06001-3'
   date: 2024-03-15
+
+- authors: F. Galetto, N. Iammarino and T. Yu
+  title: Jets and principal components of monomial ideals and very well-covered graphs
+  arxiv: 2407.01836
+  cite: 'J. Algebr. Comb., 62(32), 2025'
+  link: 'https://doi.org/10.1007/s10801-025-01453-z'
+  date: 2025-09-04
