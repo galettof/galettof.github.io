@@ -182,3 +182,13 @@ articles:
   link: 'https://doi.org/10.4134/JKMS.j230314'
   cite: <i>J. Korean Math. Soc.</i>, 62(3):485--513, 2025
   date: 2025-05-01
+
+- authors: A. Banerjee, T. H. Ha, and V. B. Lama.
+  title: Defect Functions Between Filtrations of Ideals
+  arxiv: 2512.14573
+  date: 2025-12-16
+
+- authors: T. Chau, A. Duval, S. Faridi, T. Holleben, S. Morey, and L. Şega
+  title: Symbolic powers and integral closures via extremal ideals
+  arxiv: 2602.05076
+  date: 2026-02-04
