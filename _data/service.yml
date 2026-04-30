@@ -1,6 +1,12 @@
 external:
 # sorted manually, more recent items at the top
 
+- name: 'Production Editor for Combinatorial Commutative Algebra'
+  period: '2025 - '
+
+- name: 'AMS Special Session on Recent Advances In Commutative Algebra at the 2026 Joint Mathematics Meetings (organizer with S. Da Silva, T.T. Nguyen, and K.-N. Lin)'
+  period: 2026
+
 - name: Instructor of the mini-course on "Computational Methods in Commutative Algebra", Séminaire de Mathématique Supérieures, Fields Institute
   period: 2025
 
@@ -184,3 +190,9 @@ development:
 
 - year: 2026
   name: 'Getting Started with PreTeXt'
+
+- year: 2026
+  name: 'PreFigure workshop'
+
+- year: 2026
+  name: 'AI Assessment Makeover: A Practical Workshop for Arts & Sciences Faculty'
