@@ -1,7 +1,13 @@
 # enclose values in '' when ending in 0 or containing :
 # automatically sorted by date
 
-preprints: []
+#preprints: []
+preprints:
+
+- authors: F. Galetto, J. Montaño and Z. Wellner
+  title: 'Homology of Vietoris-Rips complexes of hypercube graphs via group actions'
+  arxiv: 2606.20784
+  date: 2026-06-23
 
 refereed:
 
