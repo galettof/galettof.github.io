@@ -1,3 +1,11 @@
+# In September 2026, I stopped manually producing a PDF file for defect references.
+# I may consider creating one automatically using Github actions in the future.
+# I also streamlined the process of adding references as follows.
+# The 'cite' entry below is the line directly below the work title in zbMath,
+# without the period at the end, so it can be copy/pasted directly from there.
+# Note that recent zbMath entry do not have the Zbl BibTeX field, so they need
+# to be updated in the sdefect.bib file later on.
+
 # enclose values in '' when ending in 0 or containing :
 articles:
 
