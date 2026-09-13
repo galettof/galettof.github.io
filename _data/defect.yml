@@ -168,8 +168,10 @@ articles:
 
 - authors: P. Mantero and V. Nguyen
   title: The Structure of Symbolic Powers of Matroids
+  link: https://doi.org/10.1090/tran/9421
+  cite: 'Trans. Am. Math. Soc. 379, No. 6, 3855--3894, 2026'
   arxiv: 2406.13759
-  date: 2024-06-19
+  date: 2026-03-06
 
 - authors: I. Jahani and S. Bayati
   title: Waldschmidt constant of some classes of hypergraphs
