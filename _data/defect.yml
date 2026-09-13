@@ -5,6 +5,7 @@
 # without the period at the end, so it can be copy/pasted directly from there.
 # Note that recent zbMath entry do not have the Zbl BibTeX field, so they need
 # to be updated in the sdefect.bib file later on.
+# Finally, the date should match the first version on arXiv (not the later publication).
 
 # enclose values in '' when ending in 0 or containing :
 articles:
@@ -202,3 +203,8 @@ articles:
   title: Symbolic powers and integral closures via extremal ideals
   arxiv: 2602.05076
   date: 2026-02-04
+
+- authors: T. Rasheed and W. Yao
+  title: Defect Antichains and Multigraded Symbolic Defect Series of Edge Ideals under Graph Blow-ups
+  arxiv: 2606.29817
+  date: 2026-06-29
