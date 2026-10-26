@@ -2,6 +2,16 @@
 
 csu:
 
+- term: 2026 Fall
+  course: MTH 182
+  title: Calculus II
+  enrolled: 34
+
+- term: 2026 Fall
+  course: MTH 220
+  title: Introduction to Discrete Mathematics
+  enrolled: 19
+
 - term: 2024 Fall
   course: MTH 182
   title: Calculus II
